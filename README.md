@@ -23,6 +23,19 @@ UO-Everything is a living wiki-style repository that captures knowledge about **
 5. **Link outward:** When official or community references exist elsewhere, link to them rather than duplicating large passages.
 6. **Review changes:** For documentation-only changes, tests are not required; for code changes, run the relevant linters and tests before committing.
 
+## Current topic folders
+- [lore/](lore/README.md): Narratives, factions, and story arcs across eras.
+- [mechanics/](mechanics/README.md): Core systems like combat, stats, and travel rules.
+- [skills/](skills/README.md): Skill details, training tips, and expansion-era changes.
+- [items/](items/README.md): Gear, artifacts, consumables, and loot systems.
+- [crafting/](crafting/README.md): Production skills, recipes, and resource cycles.
+- [housing/](housing/README.md): Placement, storage, decay, and decoration systems.
+- [quests/](quests/README.md): Questlines, champion spawns, and activity guides.
+- [locations/](locations/README.md): Facets, cities, dungeons, and travel networks.
+- [shards/](shards/README.md): Official and player-run shard rulesets and histories.
+- [community/](community/README.md): Player histories, events, and cultural artifacts.
+- [history/](history/README.md): Expansion and publish timelines.
+
 ## Getting started
 - Clone the repo and browse existing folders to see topic coverage.
 - Create focused markdown files for new lore entries, mechanics explanations, shard rulesets, or player history.
