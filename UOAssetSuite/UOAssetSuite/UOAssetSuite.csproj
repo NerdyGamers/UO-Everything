@@ -8,7 +8,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ultima">
-      <HintPath>..libUltima.dll</HintPath>
+      <HintPath>Resources\Ultima.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
