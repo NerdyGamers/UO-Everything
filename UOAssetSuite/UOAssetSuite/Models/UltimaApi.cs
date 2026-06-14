@@ -37,6 +37,23 @@ public sealed class UltimaApi
         throw new MissingMethodException(type.FullName, methodName);
     }
 
+
+    public object? InvokeFirstAvailable(string typeName, params string[] methodNames)
+    {
+        var type = FindType(typeName);
+        foreach (var methodName in methodNames)
+        {
+            var method = type.GetMethods(BindingFlags.Public | BindingFlags.Static)
+                .FirstOrDefault(m => m.Name == methodName && m.GetParameters().Length == 0);
+            if (method is not null)
+            {
+                return method.Invoke(null, Array.Empty<object?>());
+            }
+        }
+
+        throw new MissingMethodException(type.FullName, string.Join("/", methodNames));
+    }
+
     public object? ReadStaticProperty(string typeName, string propertyName)
     {
         var property = FindType(typeName).GetProperty(propertyName, BindingFlags.Public | BindingFlags.Static);

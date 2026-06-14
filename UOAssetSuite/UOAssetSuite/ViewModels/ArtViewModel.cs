@@ -2,19 +2,24 @@ using UOAssetSuite.Models;
 
 namespace UOAssetSuite.ViewModels;
 
-public sealed class ArtViewModel
+public sealed class ArtViewModel : AssetViewModelBase
 {
     public ArtViewModel()
-        : this(new ArtFile())
+        : this(new UOFileManager())
     {
     }
 
-    public ArtViewModel(ArtFile file)
+    public ArtViewModel(UOFileManager fileManager)
+        : base(fileManager, fileManager.Art.DisplayName, fileManager.Art.Status)
     {
-        File = file;
+        File = fileManager.Art;
     }
 
     public ArtFile File { get; }
-    public string Title => File.DisplayName;
-    public string Status => File.Status;
+
+    protected override void ExportSelectedAssets() => File.ExportSelectedAssets();
+
+    protected override void ImportSelectedAssets() => File.ImportSelectedAssets();
+
+    protected override void SaveModifiedData() => File.SaveModifiedData();
 }

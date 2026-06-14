@@ -2,7 +2,7 @@ namespace UOAssetSuite.Models;
 
 public sealed record LandTileInfo(int Id, string? Name, int Flags, int TextureId);
 
-public sealed class LandtilesFile
+public sealed class LandtilesFile : IAssetFileOperations
 {
     private readonly UltimaApi _ultima;
 
@@ -24,4 +24,10 @@ public sealed class LandtilesFile
             UltimaApi.GetProperty<int>(tile, "Flags"),
             UltimaApi.GetProperty<int>(tile, "TextureID"));
     }
+    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Export", "ExportSelected", "Save", "SaveMul");
+
+    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+
+    public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Save", "SaveMul", "SaveChanges", "Write");
+
 }

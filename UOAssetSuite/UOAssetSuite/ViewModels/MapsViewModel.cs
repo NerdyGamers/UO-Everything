@@ -2,19 +2,24 @@ using UOAssetSuite.Models;
 
 namespace UOAssetSuite.ViewModels;
 
-public sealed class MapsViewModel
+public sealed class MapsViewModel : AssetViewModelBase
 {
     public MapsViewModel()
-        : this(new MapsFile())
+        : this(new UOFileManager())
     {
     }
 
-    public MapsViewModel(MapsFile file)
+    public MapsViewModel(UOFileManager fileManager)
+        : base(fileManager, fileManager.Maps.DisplayName, fileManager.Maps.Status)
     {
-        File = file;
+        File = fileManager.Maps;
     }
 
     public MapsFile File { get; }
-    public string Title => File.DisplayName;
-    public string Status => File.Status;
+
+    protected override void ExportSelectedAssets() => File.ExportSelectedAssets();
+
+    protected override void ImportSelectedAssets() => File.ImportSelectedAssets();
+
+    protected override void SaveModifiedData() => File.SaveModifiedData();
 }

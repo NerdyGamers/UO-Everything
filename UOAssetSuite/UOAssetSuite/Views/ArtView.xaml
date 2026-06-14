@@ -5,7 +5,13 @@
         <StackPanel>
             <TextBlock Text="{Binding Title}" FontSize="20" FontWeight="SemiBold" />
             <TextBlock Text="{Binding Status}" Margin="0,8,0,0" />
-            <TextBlock Text="Import, export, preview, and edit workflows will be implemented here." Margin="0,16,0,0" Foreground="#58606A" />
+            <WrapPanel Margin="0,16,0,0">
+                <Button Content="Load UO Client Directory" Command="{Binding LoadClientDirectoryCommand}" Margin="0,0,8,8" Padding="10,4" />
+                <Button Content="Export Selected" Command="{Binding ExportSelectedAssetsCommand}" Margin="0,0,8,8" Padding="10,4" />
+                <Button Content="Import / Replace Selected" Command="{Binding ImportSelectedAssetsCommand}" Margin="0,0,8,8" Padding="10,4" />
+                <Button Content="Save Modified Data" Command="{Binding SaveModifiedDataCommand}" Margin="0,0,8,8" Padding="10,4" />
+            </WrapPanel>
+            <TextBlock Text="Select or preview assets here, then use the commands above for Ultima.dll-backed workflows." Margin="0,8,0,0" Foreground="#58606A" />
         </StackPanel>
     </Grid>
 </UserControl>

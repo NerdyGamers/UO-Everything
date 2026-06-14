@@ -15,12 +15,12 @@
             </StackPanel>
         </Border>
         <TabControl Margin="12">
-            <TabItem Header="Art"><views:ArtView /></TabItem>
-            <TabItem Header="Landtiles"><views:LandtilesView /></TabItem>
-            <TabItem Header="Animations"><views:AnimationsView /></TabItem>
-            <TabItem Header="Gumps"><views:GumpsView /></TabItem>
-            <TabItem Header="Maps"><views:MapsView /></TabItem>
-            <TabItem Header="Tiledata"><views:TiledataView /></TabItem>
+            <TabItem Header="Art"><views:ArtView DataContext="{Binding Art}" /></TabItem>
+            <TabItem Header="Landtiles"><views:LandtilesView DataContext="{Binding Landtiles}" /></TabItem>
+            <TabItem Header="Animations"><views:AnimationsView DataContext="{Binding Animations}" /></TabItem>
+            <TabItem Header="Gumps"><views:GumpsView DataContext="{Binding Gumps}" /></TabItem>
+            <TabItem Header="Maps"><views:MapsView DataContext="{Binding Maps}" /></TabItem>
+            <TabItem Header="Tiledata"><views:TiledataView DataContext="{Binding Tiledata}" /></TabItem>
         </TabControl>
     </DockPanel>
 </Window>

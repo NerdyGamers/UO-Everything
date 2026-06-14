@@ -7,12 +7,12 @@ public sealed class MainViewModel
     public MainViewModel()
     {
         FileManager = new UOFileManager();
-        Art = new ArtViewModel(FileManager.Art);
-        Landtiles = new LandtilesViewModel(FileManager.Landtiles);
-        Animations = new AnimationsViewModel(FileManager.Animations);
-        Gumps = new GumpsViewModel(FileManager.Gumps);
-        Maps = new MapsViewModel(FileManager.Maps);
-        Tiledata = new TiledataViewModel(FileManager.Tiledata);
+        Art = new ArtViewModel(FileManager);
+        Landtiles = new LandtilesViewModel(FileManager);
+        Animations = new AnimationsViewModel(FileManager);
+        Gumps = new GumpsViewModel(FileManager);
+        Maps = new MapsViewModel(FileManager);
+        Tiledata = new TiledataViewModel(FileManager);
     }
 
     public UOFileManager FileManager { get; }

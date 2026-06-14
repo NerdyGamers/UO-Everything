@@ -2,19 +2,24 @@ using UOAssetSuite.Models;
 
 namespace UOAssetSuite.ViewModels;
 
-public sealed class TiledataViewModel
+public sealed class TiledataViewModel : AssetViewModelBase
 {
     public TiledataViewModel()
-        : this(new TiledataFile())
+        : this(new UOFileManager())
     {
     }
 
-    public TiledataViewModel(TiledataFile file)
+    public TiledataViewModel(UOFileManager fileManager)
+        : base(fileManager, fileManager.Tiledata.DisplayName, fileManager.Tiledata.Status)
     {
-        File = file;
+        File = fileManager.Tiledata;
     }
 
     public TiledataFile File { get; }
-    public string Title => File.DisplayName;
-    public string Status => File.Status;
+
+    protected override void ExportSelectedAssets() => File.ExportSelectedAssets();
+
+    protected override void ImportSelectedAssets() => File.ImportSelectedAssets();
+
+    protected override void SaveModifiedData() => File.SaveModifiedData();
 }
