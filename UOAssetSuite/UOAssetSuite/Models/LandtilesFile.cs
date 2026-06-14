@@ -20,4 +20,8 @@ public sealed class LandtilesFile
             UltimaApi.GetProperty<int>(tile, "Flags"),
             UltimaApi.GetProperty<int>(tile, "TextureID"));
     }
+public sealed class LandtilesFile
+{
+    public string DisplayName => "Landtiles";
+    public string Status => "Ready for Ultima.dll-backed file operations.";
 }

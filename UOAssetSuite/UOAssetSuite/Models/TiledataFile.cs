@@ -24,4 +24,8 @@ public sealed class TiledataFile
             UltimaApi.GetProperty<int>(item, "Animation"),
             UltimaApi.GetProperty<int>(item, "Hue"));
     }
+public sealed class TiledataFile
+{
+    public string DisplayName => "Tiledata";
+    public string Status => "Ready for Ultima.dll-backed file operations.";
 }

@@ -10,4 +10,6 @@ public sealed class GumpsFile
     }
 
     public object? Read(int gumpId) => _ultima.InvokeStatic("Ultima.Gumps", "GetGump", gumpId);
+    public string DisplayName => "Gumps";
+    public string Status => "Ready for Ultima.dll-backed file operations.";
 }

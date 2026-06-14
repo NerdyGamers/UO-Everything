@@ -12,4 +12,6 @@ public sealed class ArtFile
     public object? ReadLand(int tileId) => _ultima.InvokeStatic("Ultima.Art", "GetLand", tileId);
 
     public object? ReadStatic(int itemId) => _ultima.InvokeStatic("Ultima.Art", "GetStatic", itemId);
+    public string DisplayName => "Art";
+    public string Status => "Ready for Ultima.dll-backed file operations.";
 }

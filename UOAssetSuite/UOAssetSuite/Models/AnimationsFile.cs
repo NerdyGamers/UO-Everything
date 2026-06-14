@@ -13,4 +13,6 @@ public sealed class AnimationsFile
     {
         return _ultima.InvokeStatic("Ultima.Animations", "GetAnimation", bodyId, action, direction, hue, preserveHue);
     }
+    public string DisplayName => "Animations";
+    public string Status => "Ready for Ultima.dll-backed file operations.";
 }
