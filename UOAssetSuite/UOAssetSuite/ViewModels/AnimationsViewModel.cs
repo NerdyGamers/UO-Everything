@@ -2,19 +2,24 @@ using UOAssetSuite.Models;
 
 namespace UOAssetSuite.ViewModels;
 
-public sealed class AnimationsViewModel
+public sealed class AnimationsViewModel : AssetViewModelBase
 {
     public AnimationsViewModel()
-        : this(new AnimationsFile())
+        : this(new UOFileManager())
     {
     }
 
-    public AnimationsViewModel(AnimationsFile file)
+    public AnimationsViewModel(UOFileManager fileManager)
+        : base(fileManager, fileManager.Animations.DisplayName, fileManager.Animations.Status)
     {
-        File = file;
+        File = fileManager.Animations;
     }
 
     public AnimationsFile File { get; }
-    public string Title => File.DisplayName;
-    public string Status => File.Status;
+
+    protected override void ExportSelectedAssets() => File.ExportSelectedAssets();
+
+    protected override void ImportSelectedAssets() => File.ImportSelectedAssets();
+
+    protected override void SaveModifiedData() => File.SaveModifiedData();
 }

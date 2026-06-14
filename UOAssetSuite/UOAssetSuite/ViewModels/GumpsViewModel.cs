@@ -2,19 +2,24 @@ using UOAssetSuite.Models;
 
 namespace UOAssetSuite.ViewModels;
 
-public sealed class GumpsViewModel
+public sealed class GumpsViewModel : AssetViewModelBase
 {
     public GumpsViewModel()
-        : this(new GumpsFile())
+        : this(new UOFileManager())
     {
     }
 
-    public GumpsViewModel(GumpsFile file)
+    public GumpsViewModel(UOFileManager fileManager)
+        : base(fileManager, fileManager.Gumps.DisplayName, fileManager.Gumps.Status)
     {
-        File = file;
+        File = fileManager.Gumps;
     }
 
     public GumpsFile File { get; }
-    public string Title => File.DisplayName;
-    public string Status => File.Status;
+
+    protected override void ExportSelectedAssets() => File.ExportSelectedAssets();
+
+    protected override void ImportSelectedAssets() => File.ImportSelectedAssets();
+
+    protected override void SaveModifiedData() => File.SaveModifiedData();
 }

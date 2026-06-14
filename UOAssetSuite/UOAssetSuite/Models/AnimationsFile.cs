@@ -1,6 +1,6 @@
 namespace UOAssetSuite.Models;
 
-public sealed class AnimationsFile
+public sealed class AnimationsFile : IAssetFileOperations
 {
     private readonly UltimaApi _ultima;
 
@@ -15,4 +15,10 @@ public sealed class AnimationsFile
     }
     public string DisplayName => "Animations";
     public string Status => "Ready for Ultima.dll-backed file operations.";
+    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Export", "ExportSelected", "Save", "SaveMul");
+
+    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+
+    public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Save", "SaveMul", "SaveChanges", "Write");
+
 }

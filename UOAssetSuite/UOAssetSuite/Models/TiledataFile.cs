@@ -2,7 +2,7 @@ namespace UOAssetSuite.Models;
 
 public sealed record ItemTileInfo(int Id, string? Name, int Flags, int Weight, int Quality, int Quantity, int AnimationId, int Hue);
 
-public sealed class TiledataFile
+public sealed class TiledataFile : IAssetFileOperations
 {
     private readonly UltimaApi _ultima;
 
@@ -28,4 +28,10 @@ public sealed class TiledataFile
             UltimaApi.GetProperty<int>(item, "Animation"),
             UltimaApi.GetProperty<int>(item, "Hue"));
     }
+    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Export", "ExportSelected", "Save", "SaveMul");
+
+    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+
+    public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Save", "SaveMul", "SaveChanges", "Write");
+
 }
