@@ -28,9 +28,9 @@ public sealed class TiledataFile : IAssetFileOperations
             UltimaApi.GetProperty<int>(item, "Animation"),
             UltimaApi.GetProperty<int>(item, "Hue"));
     }
-    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Export", "ExportSelected", "Save", "SaveMul");
+    public void ExportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.TileData", new object?[] { path }, "Export", "ExportSelected", "ExportToCsv", "ExportItemDataToCsv", "ExportLandDataToCsv");
 
-    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+    public void ImportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.TileData", new object?[] { path }, "Import", "ImportSelected", "ImportFromCsv", "ImportItemDataFromCsv", "ImportLandDataFromCsv");
 
     public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Save", "SaveMul", "SaveChanges", "Write");
 

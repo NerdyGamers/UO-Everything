@@ -17,8 +17,8 @@ public abstract class AssetViewModelBase : INotifyPropertyChanged
         Title = title;
         _status = initialStatus;
         LoadClientDirectoryCommand = new RelayCommand(_ => LoadClientDirectory());
-        ExportSelectedAssetsCommand = new RelayCommand(_ => RunAssetOperation("Exported selected assets.", ExportSelectedAssets));
-        ImportSelectedAssetsCommand = new RelayCommand(_ => RunAssetOperation("Imported selected assets.", ImportSelectedAssets));
+        ExportSelectedAssetsCommand = new RelayCommand(_ => ExportSelectedAssetsWithDialog());
+        ImportSelectedAssetsCommand = new RelayCommand(_ => ImportSelectedAssetsWithDialog());
         SaveModifiedDataCommand = new RelayCommand(_ => RunAssetOperation("Saved modified data through Ultima.dll.", SaveModifiedData));
     }
 
@@ -49,9 +49,9 @@ public abstract class AssetViewModelBase : INotifyPropertyChanged
 
     public ICommand SaveModifiedDataCommand { get; }
 
-    protected abstract void ExportSelectedAssets();
+    protected abstract void ExportSelectedAssets(string path);
 
-    protected abstract void ImportSelectedAssets();
+    protected abstract void ImportSelectedAssets(string path);
 
     protected abstract void SaveModifiedData();
 
@@ -74,9 +74,52 @@ public abstract class AssetViewModelBase : INotifyPropertyChanged
             return;
         }
 
+        var validation = _fileManager.ValidateClientDirectory(dialog.SelectedPath);
+        if (!validation.IsSupported)
+        {
+            Status = validation.Message;
+            return;
+        }
+
         _fileManager.SetClientPath(dialog.SelectedPath);
-        Status = $"Loaded UO client directory: {dialog.SelectedPath}";
+        Status = validation.Message;
     }
+
+    private void ExportSelectedAssetsWithDialog()
+    {
+        using var dialog = new SaveFileDialog
+        {
+            Title = $"Export {Title}",
+            Filter = "Supported asset files (*.bmp;*.png;*.csv;*.uoa;*.xml;*.txt)|*.bmp;*.png;*.csv;*.uoa;*.xml;*.txt|All files (*.*)|*.*"
+        };
+
+        if (dialog.ShowDialog() != DialogResult.OK || string.IsNullOrWhiteSpace(dialog.FileName))
+        {
+            Status = "Export canceled.";
+            return;
+        }
+
+        RunAssetOperation($"Exported {Title} to {dialog.FileName}.", () => ExportSelectedAssets(dialog.FileName));
+    }
+
+    private void ImportSelectedAssetsWithDialog()
+    {
+        using var dialog = new OpenFileDialog
+        {
+            Title = $"Import {Title}",
+            Filter = "Supported asset files (*.bmp;*.png;*.csv;*.uoa;*.xml;*.txt)|*.bmp;*.png;*.csv;*.uoa;*.xml;*.txt|All files (*.*)|*.*"
+        };
+
+        if (dialog.ShowDialog() != DialogResult.OK || string.IsNullOrWhiteSpace(dialog.FileName))
+        {
+            Status = "Import canceled.";
+            return;
+        }
+
+        RunAssetOperation($"Imported {Title} from {dialog.FileName}.", () => ImportSelectedAssets(dialog.FileName));
+    }
+
+    protected void SetStatus(string status) => Status = status;
 
     private void RunAssetOperation(string successMessage, Action operation)
     {

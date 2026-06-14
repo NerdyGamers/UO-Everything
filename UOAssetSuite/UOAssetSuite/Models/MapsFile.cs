@@ -62,9 +62,9 @@ public sealed class MapsFile : IAssetFileOperations
 
         return _ultima.ReadStaticProperty("Ultima.Map", propertyName);
     }
-    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Map", "Export", "ExportSelected", "Save", "SaveMul");
+    public void ExportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Map", new object?[] { path }, "Export", "ExportSelected", "ExportToCsv", "ExportItemDataToCsv", "ExportLandDataToCsv");
 
-    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Map", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+    public void ImportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Map", new object?[] { path }, "Import", "ImportSelected", "ImportFromCsv", "ImportItemDataFromCsv", "ImportLandDataFromCsv");
 
     public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.Map", "Save", "SaveMul", "SaveChanges", "Write");
 
