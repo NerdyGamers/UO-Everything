@@ -11,6 +11,10 @@ public sealed class TiledataFile
         _ultima = ultima ?? new UltimaApi();
     }
 
+    public string DisplayName => "Tiledata";
+
+    public string Status => "Ready for Ultima.dll-backed file operations.";
+
     public ItemTileInfo ReadItem(int itemId)
     {
         var item = _ultima.ReadIndexedValue("Ultima.TileData", "ItemTable", itemId);
@@ -24,8 +28,4 @@ public sealed class TiledataFile
             UltimaApi.GetProperty<int>(item, "Animation"),
             UltimaApi.GetProperty<int>(item, "Hue"));
     }
-public sealed class TiledataFile
-{
-    public string DisplayName => "Tiledata";
-    public string Status => "Ready for Ultima.dll-backed file operations.";
 }

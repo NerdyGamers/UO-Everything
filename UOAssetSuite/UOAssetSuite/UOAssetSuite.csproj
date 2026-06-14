@@ -7,9 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ultima">
     <Reference Include="Ultima" Condition="Exists('Resources\\Ultima.dll')">
       <HintPath>Resources\Ultima.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 </Project>

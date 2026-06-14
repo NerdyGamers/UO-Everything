@@ -19,6 +19,10 @@ public sealed class MapsFile
         _ultima = ultima ?? new UltimaApi();
     }
 
+    public string DisplayName => "Maps";
+
+    public string Status => "Ready for Ultima.dll-backed file operations.";
+
     public object? ReadMapTile(UOMapId map, int x, int y)
     {
         var mapInstance = GetMapInstance(map);
@@ -58,8 +62,4 @@ public sealed class MapsFile
 
         return _ultima.ReadStaticProperty("Ultima.Map", propertyName);
     }
-public sealed class MapsFile
-{
-    public string DisplayName => "Maps";
-    public string Status => "Ready for Ultima.dll-backed file operations.";
 }
