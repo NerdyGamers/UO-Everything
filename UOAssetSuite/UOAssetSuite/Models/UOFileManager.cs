@@ -29,6 +29,23 @@ public sealed class UOFileManager
 
     public void SetClientPath(string clientPath) => _ultima.SetClientPath(clientPath);
 
+    public ClientVersionValidation ValidateClientDirectory(string clientPath)
+    {
+        if (!Directory.Exists(clientPath))
+        {
+            return new ClientVersionValidation(false, $"Client directory does not exist: {clientPath}");
+        }
+
+        var hasClassicMul = File.Exists(Path.Combine(clientPath, "art.mul")) && File.Exists(Path.Combine(clientPath, "tiledata.mul"));
+        var hasEnhancedUop = File.Exists(Path.Combine(clientPath, "artLegacyMUL.uop")) || File.Exists(Path.Combine(clientPath, "map0LegacyMUL.uop"));
+        if (!hasClassicMul && !hasEnhancedUop)
+        {
+            return new ClientVersionValidation(false, "Unsupported client version: expected classic MUL files or legacyMUL UOP assets.");
+        }
+
+        return new ClientVersionValidation(true, $"Loaded supported Ultima Online client directory: {clientPath}");
+    }
+
     public bool HasUltimaReference(string applicationBasePath)
     {
         var expectedPath = Path.Combine(applicationBasePath, "Resources", "Ultima.dll");

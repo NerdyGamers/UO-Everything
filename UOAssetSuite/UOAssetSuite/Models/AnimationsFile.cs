@@ -15,9 +15,11 @@ public sealed class AnimationsFile : IAssetFileOperations
     }
     public string DisplayName => "Animations";
     public string Status => "Ready for Ultima.dll-backed file operations.";
-    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Export", "ExportSelected", "Save", "SaveMul");
+    public void ReplaceFrame(int bodyId, int action, int direction, int frame, string path) => _ultima.InvokeFirstAvailable("Ultima.Animations", new object?[] { bodyId, action, direction, frame, path }, "ReplaceFrame", "Replace", "Import");
 
-    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+    public void ExportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Animations", new object?[] { path }, "Export", "ExportSelected", "Save", "SaveMul");
+
+    public void ImportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Animations", new object?[] { path }, "Import", "ImportSelected", "Replace", "ReplaceSelected");
 
     public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.Animations", "Save", "SaveMul", "SaveChanges", "Write");
 

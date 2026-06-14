@@ -40,14 +40,23 @@ public sealed class UltimaApi
 
     public object? InvokeFirstAvailable(string typeName, params string[] methodNames)
     {
+        return InvokeFirstAvailable(typeName, Array.Empty<object?>(), methodNames);
+    }
+
+    public object? InvokeFirstAvailable(string typeName, object?[] args, params string[] methodNames)
+    {
         var type = FindType(typeName);
         foreach (var methodName in methodNames)
         {
-            var method = type.GetMethods(BindingFlags.Public | BindingFlags.Static)
-                .FirstOrDefault(m => m.Name == methodName && m.GetParameters().Length == 0);
-            if (method is not null)
+            var methods = type.GetMethods(BindingFlags.Public | BindingFlags.Static)
+                .Where(m => m.Name == methodName && m.GetParameters().Length == args.Length);
+            foreach (var method in methods)
             {
-                return method.Invoke(null, Array.Empty<object?>());
+                var converted = TryConvertArguments(method, args);
+                if (converted is not null)
+                {
+                    return method.Invoke(null, converted);
+                }
             }
         }
 

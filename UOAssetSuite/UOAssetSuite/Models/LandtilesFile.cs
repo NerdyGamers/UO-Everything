@@ -24,9 +24,9 @@ public sealed class LandtilesFile : IAssetFileOperations
             UltimaApi.GetProperty<int>(tile, "Flags"),
             UltimaApi.GetProperty<int>(tile, "TextureID"));
     }
-    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Export", "ExportSelected", "Save", "SaveMul");
+    public void ExportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.TileData", new object?[] { path }, "Export", "ExportSelected", "ExportToCsv", "ExportItemDataToCsv", "ExportLandDataToCsv");
 
-    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+    public void ImportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.TileData", new object?[] { path }, "Import", "ImportSelected", "ImportFromCsv", "ImportItemDataFromCsv", "ImportLandDataFromCsv");
 
     public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.TileData", "Save", "SaveMul", "SaveChanges", "Write");
 

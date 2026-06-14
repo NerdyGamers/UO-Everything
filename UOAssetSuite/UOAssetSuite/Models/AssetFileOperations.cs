@@ -2,9 +2,9 @@ namespace UOAssetSuite.Models;
 
 public interface IAssetFileOperations
 {
-    void ExportSelectedAssets();
+    void ExportSelectedAssets(string path);
 
-    void ImportSelectedAssets();
+    void ImportSelectedAssets(string path);
 
     void SaveModifiedData();
 }

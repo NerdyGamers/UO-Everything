@@ -14,9 +14,13 @@ public sealed class ArtFile : IAssetFileOperations
     public object? ReadStatic(int itemId) => _ultima.InvokeStatic("Ultima.Art", "GetStatic", itemId);
     public string DisplayName => "Art";
     public string Status => "Ready for Ultima.dll-backed file operations.";
-    public void ExportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Art", "Export", "ExportSelected", "Save", "SaveMul");
+    public void ReplaceStatic(int itemId, string path) => _ultima.InvokeFirstAvailable("Ultima.Art", new object?[] { itemId, path }, "ReplaceStatic", "Replace", "Import");
 
-    public void ImportSelectedAssets() => _ultima.InvokeFirstAvailable("Ultima.Art", "Import", "ImportSelected", "Replace", "ReplaceSelected");
+    public void ReplaceLand(int tileId, string path) => _ultima.InvokeFirstAvailable("Ultima.Art", new object?[] { tileId, path }, "ReplaceLand", "Replace", "Import");
+
+    public void ExportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Art", new object?[] { path }, "Export", "ExportSelected", "Save", "SaveMul");
+
+    public void ImportSelectedAssets(string path) => _ultima.InvokeFirstAvailable("Ultima.Art", new object?[] { path }, "Import", "ImportSelected", "Replace", "ReplaceSelected");
 
     public void SaveModifiedData() => _ultima.InvokeFirstAvailable("Ultima.Art", "Save", "SaveMul", "SaveChanges", "Write");
 
