@@ -11,6 +11,10 @@ public sealed class LandtilesFile
         _ultima = ultima ?? new UltimaApi();
     }
 
+    public string DisplayName => "Landtiles";
+
+    public string Status => "Ready for Ultima.dll-backed file operations.";
+
     public LandTileInfo Read(int tileId)
     {
         var tile = _ultima.ReadIndexedValue("Ultima.TileData", "LandTable", tileId);
@@ -20,8 +24,4 @@ public sealed class LandtilesFile
             UltimaApi.GetProperty<int>(tile, "Flags"),
             UltimaApi.GetProperty<int>(tile, "TextureID"));
     }
-public sealed class LandtilesFile
-{
-    public string DisplayName => "Landtiles";
-    public string Status => "Ready for Ultima.dll-backed file operations.";
 }
