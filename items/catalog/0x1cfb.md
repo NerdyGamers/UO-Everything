@@ -1,0 +1,11 @@
+# blood
+
+**Item ID:** `0x1cfb` (7419)
+
+## Tile data
+
+- Flags: Translucent, Wet (`0x00000088`)
+- Weight: 0
+- Height: 0
+
+*Catalog entry generated from client tile data.*

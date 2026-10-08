@@ -1,0 +1,12 @@
+# silver ingots
+
+**Item ID:** `0x1bfa` (7162)
+
+## Tile data
+
+- Flags: None (`0x00000000`)
+- Weight: 0
+- Height: 1
+- Stack offset: 10
+
+*Catalog entry generated from client tile data.*
