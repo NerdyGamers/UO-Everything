@@ -1,0 +1,11 @@
+# brick wall
+
+**Item ID:** `0x9aca` (39626)
+
+## Tile data
+
+- Flags: Wall, Impassable, ArticleA, Unknown3 (`0x04004050`)
+- Weight: 255
+- Height: 2
+
+*Catalog entry generated from client tile data.*
