@@ -4,7 +4,7 @@ Armor is worn in six body slots — head, neck (gorget), arms, gloves, chest, an
 
 ## How it works
 
-Armor comes in types with escalating protection: leather, studded leather, bone, chainmail, ringmail, and plate. Plate pieces carry the highest resists but require more [Strength](../skills/mechanics/../../mechanics/stats.md) and stamina to wear effectively; leather is light and favored by mages and archers. The five resists — [physical, fire, cold, poison, energy](../mechanics/resistances.md) — appear on each piece, and a suited character layers them toward the 70-per-type cap.
+Armor comes in types with escalating protection: leather, studded leather, bone, chainmail, ringmail, and plate. Plate pieces carry the highest resists but require more [Strength](../mechanics/stats.md) and stamina to wear effectively; leather is light and favored by mages and archers. The five resists — [physical, fire, cold, poison, energy](../mechanics/resistances.md) — appear on each piece, and a suited character layers them toward the 70-per-type cap.
 
 Key properties beyond raw resists:
 - **Lower Mana Cost (LMC)** — reduces the mana each spell consumes; a cornerstone of mage suits.

@@ -4,7 +4,7 @@ Weapons define a character's offense: their damage range, swing speed, and which
 
 ## How it works
 
-Weapon classes differ in damage, speed, and handedness. Swords tend toward balanced damage; fencing weapons are fast; macing weapons are slow and hard-hitting; bows and crossbows attack at range; thrown weapons (added with Stygian Abyss) need no ammunition. Base damage is modified by [Tactics](../skills/combat/tactics.md), [Anatomy](../skills/combat/anatomy.md), Strength, and the [Damage Increase](../items/item-properties.md) (DI) property.
+Weapon classes differ in damage, speed, and handedness. Swords tend toward balanced damage; fencing weapons are fast; macing weapons are slow and hard-hitting; bows and crossbows attack at range; thrown weapons (added with Stygian Abyss) need no ammunition. Base damage is modified by [Tactics](../skills/combat/tactics.md), [Anatomy](../skills/combat/anatomy.md), Strength, and the [Damage Increase(item-properties.md) (DI) property.
 
 Each weapon carries two [special moves](../mechanics/special-moves.md) — techniques like Armor Ignore, Mortal Strike, and Whirlwind — gated behind skill thresholds and costing mana. Magical weapons add properties: Hit Chance Increase, Swing Speed Increase, Hit Life/ Mana/ Stamina Leech, and [slayers](#slayers).
 

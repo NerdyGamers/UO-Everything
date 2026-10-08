@@ -4,7 +4,7 @@ Rings and bracelets carry no resists and no armor, yet they are often the most b
 
 ## How it works
 
-A character wears one ring and one bracelet. Magical jewelry rolls properties from the full [item property](../items/item-properties.md) pool, and the most sought-after pieces stack several of the properties that are hard to fit elsewhere:
+A character wears one ring and one bracelet. Magical jewelry rolls properties from the full [item property(item-properties.md) pool, and the most sought-after pieces stack several of the properties that are hard to fit elsewhere:
 
 - **Faster Casting (FC)** — shortens spell cast times; capped, so jewelry is the usual place to reach it.
 - **Faster Cast Recovery (FCR)** — shortens the recovery between spells.
