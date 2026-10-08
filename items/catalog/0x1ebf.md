@@ -1,0 +1,11 @@
+# wheat sprouts
+
+**Item ID:** `0x1ebf` (7871)
+
+## Tile data
+
+- Flags: None (`0x00000000`)
+- Weight: 0
+- Height: 0
+
+*Catalog entry generated from client tile data.*

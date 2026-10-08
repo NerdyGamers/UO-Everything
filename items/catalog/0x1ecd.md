@@ -1,0 +1,12 @@
+# light
+
+**Item ID:** `0x1ecd` (7885)
+
+## Tile data
+
+- Flags: ArticleA, LightSource, Animation (`0x01804000`)
+- Weight: 0
+- Height: 0
+- Quality: 2
+
+*Catalog entry generated from client tile data.*
