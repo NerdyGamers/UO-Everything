@@ -1,0 +1,11 @@
+# tree Terrain
+
+**Item ID:** `0x2ece` (11982)
+
+## Tile data
+
+- Flags: Background (`0x00000001`)
+- Weight: 255
+- Height: 0
+
+*Catalog entry generated from client tile data.*
