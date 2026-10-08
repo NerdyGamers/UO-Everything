@@ -1,0 +1,11 @@
+# lava
+
+**Item ID:** `0x2aea` (10986)
+
+## Tile data
+
+- Flags: Damaging, Animation (`0x01000020`)
+- Weight: 255
+- Height: 0
+
+*Catalog entry generated from client tile data.*
