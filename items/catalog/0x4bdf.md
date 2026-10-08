@@ -1,0 +1,11 @@
+# Garden shed SOUTH
+
+**Item ID:** `0x4bdf` (19423)
+
+## Tile data
+
+- Flags: Impassable (`0x00000040`)
+- Weight: 50
+- Height: 20
+
+*Catalog entry generated from client tile data.*
