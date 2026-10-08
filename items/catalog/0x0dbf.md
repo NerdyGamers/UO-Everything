@@ -1,0 +1,14 @@
+# fishing pole
+
+**Item ID:** `0x0dbf` (3519)
+
+## Tile data
+
+- Flags: Weapon, ArticleA, Wearable (`0x00404002`)
+- Weight: 8
+- Height: 1
+- Animation: 972
+- Quality: 2
+- Stack offset: 8
+
+*Catalog entry generated from client tile data.*
