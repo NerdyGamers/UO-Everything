@@ -1,0 +1,11 @@
+# Canal 03 F2 south
+
+**Item ID:** `0x9beb` (39915)
+
+## Tile data
+
+- Flags: Impassable (`0x00000040`)
+- Weight: 255
+- Height: 10
+
+*Catalog entry generated from client tile data.*
