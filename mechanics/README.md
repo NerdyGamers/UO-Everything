@@ -4,6 +4,17 @@
 
 Explains how core systems work across expansions: combat math, stats, skills interplay, resistances, fame/karma, and travel rules.
 
+## Article index
+
+### Combat mechanics
+[Combat System](combat-system.md), [Resistances](resistances.md), [Swing Speed](swing-speed.md), [Spellcasting](spellcasting.md), [Special Moves](special-moves.md)
+
+### Character systems
+[Karma and Fame](karma-fame.md), [Notoriety](notoriety.md), [Stats](stats.md), [Death and Insurance](death-and-insurance.md), [Virtues](virtues.md)
+
+### World systems
+[Factions](factions.md), [Champion Spawns](champion-spawns.md), [Power Scrolls](power-scrolls.md), [Peerless Encounters](peerless-encounters.md)
+
 ## What to document
 - Combat resolution, damage types, resist caps, and PvP/PvE rule differences.
 - Stat systems, regeneration, and caps across eras.
