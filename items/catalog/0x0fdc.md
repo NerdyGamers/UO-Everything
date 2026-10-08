@@ -1,0 +1,11 @@
+# tapestry
+
+**Item ID:** `0x0fdc` (4060)
+
+## Tile data
+
+- Flags: ArticleA (`0x00004000`)
+- Weight: 255
+- Height: 0
+
+*Catalog entry generated from client tile data.*

@@ -1,0 +1,11 @@
+# anvil
+
+**Item ID:** `0x0faf` (4015)
+
+## Tile data
+
+- Flags: Impassable, ArticleAn (`0x00008040`)
+- Weight: 255
+- Height: 5
+
+*Catalog entry generated from client tile data.*
