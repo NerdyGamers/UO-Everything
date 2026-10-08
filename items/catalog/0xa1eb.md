@@ -1,0 +1,11 @@
+# Potion_bottle_6
+
+**Item ID:** `0xa1eb` (41451)
+
+## Tile data
+
+- Flags: PartialHue (`0x00040000`)
+- Weight: 255
+- Height: 1
+
+*Catalog entry generated from client tile data.*
