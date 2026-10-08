@@ -1,0 +1,12 @@
+# elven loveseat
+
+**Item ID:** `0x2ddf` (11743)
+
+## Tile data
+
+- Flags: ArticleA, Unknown3 (`0x04004000`)
+- Weight: 255
+- Height: 1
+- Stack offset: 40
+
+*Catalog entry generated from client tile data.*
