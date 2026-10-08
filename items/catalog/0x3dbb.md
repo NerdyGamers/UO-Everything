@@ -1,0 +1,11 @@
+# Distillery Encampmen
+
+**Item ID:** `0x3dbb` (15803)
+
+## Tile data
+
+- Flags: Impassable (`0x00000040`)
+- Weight: 255
+- Height: 10
+
+*Catalog entry generated from client tile data.*

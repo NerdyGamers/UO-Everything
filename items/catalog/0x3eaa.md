@@ -1,0 +1,11 @@
+# deck
+
+**Item ID:** `0x3eaa` (16042)
+
+## Tile data
+
+- Flags: Background, Impassable, ArticleA, StairRight (`0x80004041`)
+- Weight: 255
+- Height: 3
+
+*Catalog entry generated from client tile data.*
