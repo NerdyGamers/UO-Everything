@@ -1,0 +1,11 @@
+# mosaic_2x2
+
+**Item ID:** `0x9dde` (40414)
+
+## Tile data
+
+- Flags: Background, Surface, NoShoot, PartialHue (`0x00042201`)
+- Weight: 1
+- Height: 0
+
+*Catalog entry generated from client tile data.*

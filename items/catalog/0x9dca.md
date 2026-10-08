@@ -1,0 +1,11 @@
+# yard_sleigh
+
+**Item ID:** `0x9dca` (40394)
+
+## Tile data
+
+- Flags: Impassable (`0x00000040`)
+- Weight: 255
+- Height: 10
+
+*Catalog entry generated from client tile data.*

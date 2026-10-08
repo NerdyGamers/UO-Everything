@@ -1,0 +1,11 @@
+# incense_south
+
+**Item ID:** `0x9ede` (40670)
+
+## Tile data
+
+- Flags: Animation (`0x01000000`)
+- Weight: 1
+- Height: 1
+
+*Catalog entry generated from client tile data.*
