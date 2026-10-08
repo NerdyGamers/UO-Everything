@@ -1,0 +1,11 @@
+# ShipHull D2 NORTH
+
+**Item ID:** `0x8cbf` (36031)
+
+## Tile data
+
+- Flags: Impassable, PartialHue (`0x00040040`)
+- Weight: 255
+- Height: 19
+
+*Catalog entry generated from client tile data.*
