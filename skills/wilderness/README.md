@@ -1,6 +1,5 @@
 # Wilderness skills
 
-**Canon**
 
 The wilderness group covers living off the land and working with animals: taming, healing, judging, herding, and roughing it.
 

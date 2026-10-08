@@ -1,6 +1,5 @@
 # Evaluating Intelligence
 
-**Canon**
 
 A passive skill that increases spell damage and lets a mage gauge a target's intelligence.
 

@@ -1,6 +1,5 @@
 # Cartography
 
-**Canon**
 
 Cartography is the art of mapmaking — most importantly, decoding the treasure maps that lead to buried chests.
 

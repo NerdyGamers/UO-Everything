@@ -1,6 +1,5 @@
 # Tailoring
 
-**Canon**
 
 Tailoring is the craft of sewing cloth, leather, and bone armor — plus hats, robes, and containers — from bolts of cloth and cured hides, using a sewing kit.
 

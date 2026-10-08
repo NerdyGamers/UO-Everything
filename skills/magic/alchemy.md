@@ -1,6 +1,5 @@
 # Alchemy
 
-**Canon**
 
 The crafting skill behind potions — healing draughts, cures, explosions, and more.
 

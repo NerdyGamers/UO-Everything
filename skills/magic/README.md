@@ -1,6 +1,5 @@
 # Magic
 
-**Canon**
 
 The Magic group covers Britannia's spellcasting and spell-adjacent skills: the classic schools, their supporting skills, and the crafting arts that feed them.
 

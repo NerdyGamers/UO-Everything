@@ -1,6 +1,5 @@
 # Fletching
 
-**Canon**
 
 Fletching is the craft of making bows, crossbows, arrows, and bolts from boards, shafts, and feathers.
 

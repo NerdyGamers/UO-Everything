@@ -1,6 +1,5 @@
 # Remove Trap
 
-**Canon**
 
 Remove Trap disarms trapped chests and containers — dart, poison-needle, and explosive traps.
 

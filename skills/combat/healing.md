@@ -1,6 +1,5 @@
 # Healing
 
-**Canon**
 
 Healing governs the use of bandages to restore health, cure poison, and resurrect the dead.
 

@@ -1,6 +1,5 @@
 # Rogue skills
 
-**Canon**
 
 The rogue group covers skullduggery: staying unseen, getting into locked things, and relieving others of their belongings. These nine skills form the backbone of thief, assassin, treasure-hunter, and scout templates.
 

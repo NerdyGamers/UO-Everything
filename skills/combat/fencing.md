@@ -1,6 +1,5 @@
 # Fencing
 
-**Canon**
 
 Fencing governs piercing weapons: daggers, the kryss, spears, war forks, and lances.
 

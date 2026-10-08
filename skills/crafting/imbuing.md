@@ -1,6 +1,5 @@
 # Imbuing
 
-**Canon**
 
 Imbuing is the craft of adding or enhancing magical properties on weapons, armor, and jewelry at a Soul Forge, introduced with the Stygian Abyss expansion.
 

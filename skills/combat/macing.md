@@ -1,6 +1,5 @@
 # Macing
 
-**Canon**
 
 Macing governs blunt weapons: maces, war hammers, mauls, quarter staves, clubs, and scepters.
 

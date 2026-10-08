@@ -1,6 +1,5 @@
 # Fishing
 
-**Canon**
 
 Fishing is the gathering skill for pulling fish, treasure, and rarities from water (and lava) with a fishing pole.
 

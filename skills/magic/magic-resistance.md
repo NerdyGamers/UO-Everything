@@ -1,6 +1,5 @@
 # Magic Resistance
 
-**Canon**
 
 A purely passive defensive skill that reduces spell damage and resists harmful magical effects.
 

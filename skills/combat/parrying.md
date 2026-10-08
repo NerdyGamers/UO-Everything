@@ -1,6 +1,5 @@
 # Parrying
 
-**Canon**
 
 Parrying gives a chance to block incoming melee and ranged attacks.
 

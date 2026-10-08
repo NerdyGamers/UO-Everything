@@ -1,6 +1,5 @@
 # Mysticism
 
-**Canon**
 
 The Stygian Abyss spell school (2009): sixteen spells blending raw nether energy with gargish tradition.
 

@@ -1,6 +1,5 @@
 # Stealth
 
-**Canon**
 
 Stealth allows a hidden character to move without being revealed.
 

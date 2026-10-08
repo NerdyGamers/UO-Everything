@@ -1,6 +1,5 @@
 # Provocation
 
-**Canon**
 
 Provocation is the bard skill for inciting two creatures to attack each other by playing an inflammatory tune.
 

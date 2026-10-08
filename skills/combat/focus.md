@@ -1,6 +1,5 @@
 # Focus
 
-**Canon**
 
 Focus is a passive skill that regenerates stamina and mana.
 

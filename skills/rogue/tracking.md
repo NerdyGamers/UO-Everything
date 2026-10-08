@@ -1,6 +1,5 @@
 # Tracking
 
-**Canon**
 
 Tracking locates nearby creatures, NPCs, and players, listing them by category.
 

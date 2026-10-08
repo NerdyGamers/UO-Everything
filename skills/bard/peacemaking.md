@@ -1,6 +1,5 @@
 # Peacemaking
 
-**Canon**
 
 Peacemaking is the bard skill for calming creatures (and, in limited cases, players) — stopping them from attacking — by playing a soothing tune.
 

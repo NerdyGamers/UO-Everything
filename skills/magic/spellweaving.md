@@ -1,6 +1,5 @@
 # Spellweaving
 
-**Canon**
 
 Elven arcane magic of sixteen spells, introduced with Mondain's Legacy (2005) — strongest when woven together.
 

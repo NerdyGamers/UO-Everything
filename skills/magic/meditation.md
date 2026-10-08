@@ -1,6 +1,5 @@
 # Meditation
 
-**Canon**
 
 Governs mana regeneration, both passively and through active meditation.
 

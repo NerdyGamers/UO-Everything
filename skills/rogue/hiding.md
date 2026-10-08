@@ -1,6 +1,5 @@
 # Hiding
 
-**Canon**
 
 Hiding lets a character vanish from sight, becoming invisible to other players and most creatures.
 

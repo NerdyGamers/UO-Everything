@@ -1,6 +1,5 @@
 # Veterinary
 
-**Canon**
 
 Veterinary heals and cures the tamer's pets with bandages — the animal equivalent of Healing.
 

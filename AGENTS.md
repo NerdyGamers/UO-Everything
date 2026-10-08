@@ -8,8 +8,8 @@ These instructions apply to all files in this repository.
 
 ## Documentation focus
 - This project is a wiki-style knowledge base. Prefer structured Markdown with clear headings, short sections, and relative links between related pages.
-- Label content as **Canon** or **Non-Canon** near the top of each document. Include era/shard context when relevant.
-- Capture sources (official manuals, patch notes, shard forums, interviews) whenever possible and note when information is community recollection.
+- Label lore content as **Canon** or **Non-Canon** near the top of each document. Gameplay reference pages (skills, mechanics, crafting, items, etc.) don't need the label.
+- Include era/shard context when relevant. Put sources as a simple annotation list at the bottom of each page, and note when information is community recollection.
 - Favor neutral, descriptive writing; represent differing viewpoints with attribution.
 
 ## Repository hygiene

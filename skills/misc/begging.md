@@ -1,6 +1,5 @@
 # Begging
 
-**Canon**
 
 Begging allows a character to plead with NPCs for coins or small gifts.
 

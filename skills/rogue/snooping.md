@@ -1,6 +1,5 @@
 # Snooping
 
-**Canon**
 
 Snooping lets a character peek inside another character's backpack — the necessary first step before [Stealing](stealing.md).
 

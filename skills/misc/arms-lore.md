@@ -1,6 +1,5 @@
 # Arms Lore
 
-**Canon**
 
 Arms Lore lets a character judge the quality and condition of weapons and armor, and at high skill reveals more about an item's properties.
 

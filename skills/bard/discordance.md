@@ -1,6 +1,5 @@
 # Discordance
 
-**Canon**
 
 Discordance is the bard skill for weakening a target creature — lowering its stats, resists, and combat effectiveness — by playing a discordant tune.
 

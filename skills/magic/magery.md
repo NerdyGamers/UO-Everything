@@ -1,6 +1,5 @@
 # Magery
 
-**Canon**
 
 The core spellcasting skill of Britannia, governing 64 spells arranged in eight circles of increasing power.
 

@@ -1,6 +1,5 @@
 # Camping
 
-**Canon**
 
 Camping lets a character build a campfire from kindling and rest beside it for faster recovery.
 

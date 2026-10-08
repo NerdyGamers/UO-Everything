@@ -1,6 +1,5 @@
 # Lumberjacking
 
-**Canon**
 
 Lumberjacking is the gathering skill for chopping logs and boards from trees with an axe, and it grants a damage bonus when fighting with axes.
 

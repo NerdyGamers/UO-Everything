@@ -1,6 +1,5 @@
 # Lockpicking
 
-**Canon**
 
 Lockpicking opens locked doors and containers using lockpicks crafted by tinkers.
 

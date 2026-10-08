@@ -1,6 +1,5 @@
 # Spirit Speak
 
-**Canon**
 
 Communion with the dead — and the skill that empowers necromancy.
 

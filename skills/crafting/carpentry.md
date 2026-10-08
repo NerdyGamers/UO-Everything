@@ -1,6 +1,5 @@
 # Carpentry
 
-**Canon**
 
 Carpentry is the craft of shaping boards into furniture, containers, weapons, and musical instruments, using saws, hammers, and other woodworking tools.
 

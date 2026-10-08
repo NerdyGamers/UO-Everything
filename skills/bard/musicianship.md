@@ -1,6 +1,5 @@
 # Musicianship
 
-**Canon**
 
 Musicianship is the foundational bard skill — the ability to play an instrument well — and a prerequisite for the other bard skills: [Discordance](discordance.md), [Peacemaking](peacemaking.md), and [Provocation](provocation.md).
 

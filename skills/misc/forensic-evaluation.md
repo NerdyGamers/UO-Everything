@@ -1,6 +1,5 @@
 # Forensic Evaluation
 
-**Canon**
 
 Forensic Evaluation lets a character examine corpses to learn about the death — most famously, the name of the killer.
 

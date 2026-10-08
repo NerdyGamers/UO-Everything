@@ -1,6 +1,5 @@
 # Mining
 
-**Canon**
 
 Mining is the gathering skill for digging ore and gems from mountainsides and caves with a pickaxe or shovel, and smelting ore into ingots.
 

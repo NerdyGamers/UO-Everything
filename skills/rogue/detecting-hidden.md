@@ -1,6 +1,5 @@
 # Detecting Hidden
 
-**Canon**
 
 Detecting Hidden reveals creatures and players concealed by [Hiding](hiding.md) or [Stealth](stealth.md).
 

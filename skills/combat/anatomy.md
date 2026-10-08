@@ -1,6 +1,5 @@
 # Anatomy
 
-**Canon**
 
 Anatomy lets a character assess the physical condition of other creatures, and it passively adds damage to melee attacks.
 

@@ -1,6 +1,5 @@
 # Archery
 
-**Canon**
 
 Archery governs ranged attacks with bows and crossbows.
 

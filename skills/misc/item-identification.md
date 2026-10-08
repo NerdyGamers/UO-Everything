@@ -1,6 +1,5 @@
 # Item Identification
 
-**Canon**
 
 Item Identification reveals the hidden properties of magic items.
 

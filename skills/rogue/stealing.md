@@ -1,6 +1,5 @@
 # Stealing
 
-**Canon**
 
 Stealing takes items directly from another character's backpack.
 

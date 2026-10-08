@@ -1,6 +1,5 @@
 # Swordsmanship
 
-**Canon**
 
 Swordsmanship governs bladed weapons: swords, katanas, axes, and polearms such as the halberd.
 

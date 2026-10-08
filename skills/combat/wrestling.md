@@ -1,6 +1,5 @@
 # Wrestling
 
-**Canon**
 
 Wrestling governs unarmed combat — fighting with fists.
 

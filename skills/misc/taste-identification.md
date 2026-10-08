@@ -1,6 +1,5 @@
 # Taste Identification
 
-**Canon**
 
 Taste Identification lets a character sample food, drink, and potions to determine what they are — and whether the food is poisoned.
 

@@ -1,6 +1,5 @@
 # Cooking
 
-**Canon**
 
 Cooking is the craft of preparing food — bread, pies, cakes, and cooked meats — from raw ingredients using an oven, flour mill, or heat source.
 

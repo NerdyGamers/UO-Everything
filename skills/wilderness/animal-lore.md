@@ -1,6 +1,5 @@
 # Animal Lore
 
-**Canon**
 
 Animal Lore reveals detailed information about creatures — stats, skills, temperament, and taming difficulty.
 

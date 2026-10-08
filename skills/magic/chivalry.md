@@ -1,6 +1,5 @@
 # Chivalry
 
-**Canon**
 
 The paladin's art: ten holy spells powered by karma and tithing, introduced with the Age of Shadows expansion (2003).
 

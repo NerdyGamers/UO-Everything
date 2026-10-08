@@ -1,6 +1,5 @@
 # Inscription
 
-**Canon**
 
 The scribe's craft: copying spells onto scrolls, with a side benefit that empowers the scribe's own magery.
 

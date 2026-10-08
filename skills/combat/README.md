@@ -1,6 +1,5 @@
 # Combat skills
 
-**Canon**
 
 The combat group covers the skills used to fight: weapon skills, defensive skills, and the support skills warriors rely on.
 

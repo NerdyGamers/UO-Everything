@@ -1,6 +1,5 @@
 # Herding
 
-**Canon**
 
 Herding directs animals to move to a chosen spot, traditionally with a shepherd's crook.
 

@@ -1,6 +1,5 @@
 # Tactics
 
-**Canon**
 
 Tactics increases damage dealt with weapon attacks and gates the use of special moves.
 

@@ -1,6 +1,5 @@
 # Blacksmithy
 
-**Canon**
 
 Blacksmithy is the craft of forging metal weapons and armor from ingots at an anvil and forge, using a smith's hammer or tongs.
 

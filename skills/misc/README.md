@@ -1,6 +1,5 @@
 # Miscellaneous skills
 
-**Canon**
 
 The scholarly and flavor skills that fit no other group: evaluating gear, begging, mapmaking, detective work, and identification.
 

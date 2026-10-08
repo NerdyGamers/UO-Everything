@@ -1,6 +1,5 @@
 # Necromancy
 
-**Canon**
 
 Dark magic of seventeen spells, strongest in the hands of the wicked — introduced with Age of Shadows (2003).
 

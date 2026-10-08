@@ -1,6 +1,5 @@
 # Poisoning
 
-**Canon**
 
 Poisoning applies poison to bladed weapons (and, in classic play, food and drink), giving attacks a chance to poison the victim.
 

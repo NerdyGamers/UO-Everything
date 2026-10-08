@@ -1,6 +1,5 @@
 # Tinkering
 
-**Canon**
 
 Tinkering is the craft of making tools, traps, locks, jewelry, and clockwork gadgets from ingots, using tinker's tools.
 

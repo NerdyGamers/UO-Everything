@@ -1,6 +1,5 @@
 # Animal Taming
 
-**Canon**
 
 Animal Taming lets a character tame wild creatures as pets and mounts.
 
