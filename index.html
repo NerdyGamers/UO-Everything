@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UO-Everything Wiki</title>
+<meta name="description" content="Just about everything Ultima Online — a community wiki of lore, mechanics, items, mobiles, and more.">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">UO-Everything</a>
+  <div class="searchwrap">
+    <input id="search" type="search" placeholder="Search the wiki…" autocomplete="off" aria-label="Search the wiki">
+    <div id="results" class="results" hidden></div>
+  </div>
+  <a class="gh" href="https://github.com/NerdyGamers/UO-Everything" target="_blank" rel="noopener">GitHub</a>
+</header>
+<div class="layout">
+  <nav id="sidebar" class="sidebar" aria-label="Sections"></nav>
+  <main class="main">
+    <div id="crumbs" class="crumbs"></div>
+    <article id="content" class="content"><p class="loading">Loading…</p></article>
+    <footer class="foot">UO-Everything — just about everything Ultima Online. Content is community knowledge; uncertain details are marked as such on each page.</footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
