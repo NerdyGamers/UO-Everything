@@ -14,7 +14,7 @@ Community recollection holds hit lightning.
 
 Listed among the Leviathan and treasure map minors on the Stratics community wiki.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

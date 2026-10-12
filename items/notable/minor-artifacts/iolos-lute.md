@@ -14,7 +14,7 @@ Community recollection holds bard-related mods.
 
 One of the two named bard instruments in the set, alongside [Gwenno's Harp](gwennos-harp.md). Obtainable from paragons, Leviathans, and treasure map chests alike.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

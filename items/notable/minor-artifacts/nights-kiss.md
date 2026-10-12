@@ -14,7 +14,7 @@ Community recollection holds hit life leech.
 
 One of the original paragon minor artifacts from Publish 27 (2004).
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

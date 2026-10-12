@@ -14,7 +14,7 @@ No combat properties - pure decoration.
 
 Part of the seafaring minor set.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

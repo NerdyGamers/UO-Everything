@@ -12,7 +12,7 @@ Double-clicking the crystal releases a bonded pure-white squirrel pet.
 
 ## Notes
 
-One of the peerless pet rewards; a Mondain's Legacy upgrade is required to activate the crystal. See [Peerless Encounters](../../mechanics/peerless-encounters.md).
+One of the peerless pet rewards; a Mondain's Legacy upgrade is required to activate the crystal. See [Peerless Encounters](../../../mechanics/peerless-encounters.md).
 
 ## Sources
 

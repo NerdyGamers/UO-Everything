@@ -11,7 +11,7 @@ Train by cutting shafts and fletching arrows in volume — feathers from harpies
 
 ## Synergies
 - [Lumberjacking](../gathering/lumberjacking.md) — boards for shafts and bows.
-- [Archery](../wilderness/archery.md) — archers are the main customers for fletcher-made ammunition.
+- [Archery](../combat/archery.md) — archers are the main customers for fletcher-made ammunition.
 - [Tinkering](tinkering.md) — some crossbow components.
 
 ## Era notes

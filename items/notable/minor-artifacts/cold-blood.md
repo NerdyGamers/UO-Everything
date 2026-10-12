@@ -14,7 +14,7 @@ Community recollection holds cold damage.
 
 The only treasure-map-specific item UOGuide still counts as a traditional minor. The other treasure map artifacts (A Creeping Vine, Forged Pardon, Mana Phasing Orb, Runed Sash of Warding, Surge Shield) were introduced with Publish 67 and are not considered traditional minors.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

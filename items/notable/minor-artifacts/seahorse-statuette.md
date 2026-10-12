@@ -14,7 +14,7 @@ No combat properties - pure decoration.
 
 The Seahorse Statuette and the [Ghost Ship Anchor](ghost-ship-anchor.md) are the two artifacts exclusive to the Leviathan, making them extremely rare. During the Spring Cleaning 2008 event they were worth 25,000 turn-in points, against 500 for any other traditional minor.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

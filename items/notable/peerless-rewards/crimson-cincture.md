@@ -12,7 +12,7 @@ Worn in the waist slot, where almost nothing else carries item properties. Its b
 
 ## Notes
 
-A staple of dexer suits. It pairs with the Tangle as the two property-bearing waist-slot options — the Cincture being the fighter's choice and the Tangle the mage's. See [Artifacts](../../artifacts.md) and [Peerless Encounters](../../mechanics/peerless-encounters.md).
+A staple of dexer suits. It pairs with the Tangle as the two property-bearing waist-slot options — the Cincture being the fighter's choice and the Tangle the mage's. See [Artifacts](../../artifacts.md) and [Peerless Encounters](../../../mechanics/peerless-encounters.md).
 
 ## Sources
 

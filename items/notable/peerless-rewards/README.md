@@ -25,4 +25,4 @@ Named artifacts dropped by the peerless bosses — the toughest single encounter
 - [Tunic of the Grizzle](tunic-of-the-grizzle.md) — armor set piece; Monstrous Interred Grizzle
 - [Vambraces of the Grizzle](vambraces-of-the-grizzle.md) — armor set piece; Monstrous Interred Grizzle
 
-Related: [Artifacts](../../artifacts.md), [Peerless Encounters](../../mechanics/peerless-encounters.md), the peerless boss articles under [mobiles](../../../mobiles/bosses/peerless/README.md).
+Related: [Artifacts](../../artifacts.md), [Peerless Encounters](../../../mechanics/peerless-encounters.md), the peerless boss articles under [mobiles](../../../mobiles/bosses/peerless/README.md).

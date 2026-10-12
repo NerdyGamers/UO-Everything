@@ -14,7 +14,7 @@ Drinkable. Community recollection holds it grants a temporary strength buff when
 
 A fixture of the seafaring minor set alongside the [Candelabra of Souls](candelabra-of-souls.md) and [Captain Quacklebush's Cutlass](captain-quacklebushs-cutlass.md).
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources

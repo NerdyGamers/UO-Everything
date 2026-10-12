@@ -14,7 +14,7 @@ Community recollection holds a luck bonus.
 
 Community recollection notes a prepatch version of the hat with different properties.
 
-For the broader artifact picture, see [Artifacts](../../items/artifacts.md) and the
+For the broader artifact picture, see [Artifacts](../../artifacts.md) and the
 [Doom Gauntlet majors](../doom-artifacts/).
 
 ## Sources
