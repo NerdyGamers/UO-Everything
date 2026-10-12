@@ -61,7 +61,15 @@ body {
 .sidebar li { margin: 0.15rem 0; }
 .sidebar a { color: var(--sidebar-ink); text-decoration: none; display: block; padding: 0.15rem 0.4rem; border-radius: 3px; }
 .sidebar a:hover { background: rgba(185,138,47,.18); color: #fff; }
+.sidebar a.active { background: rgba(185,138,47,.35); color: #fff; }
+.sidebar a.cur { background: rgba(185,138,47,.35); color: #fff; }
 .sidebar .count { color: #9a8a66; font-size: 0.8rem; }
+.sectree { font-size: 0.85rem; margin-bottom: 1rem; }
+.sectree ul { margin: 0 0 0.2rem; padding-left: 0.7rem; }
+.sectree details { margin: 0.1rem 0; }
+.sectree summary { cursor: pointer; color: var(--gold); font-variant: small-caps; padding: 0.1rem 0.4rem; border-radius: 3px; }
+.sectree summary:hover { background: rgba(185,138,47,.18); }
+.sectree .treetitle { margin-top: 0.6rem; }
 .main { flex: 1; min-width: 0; padding: 1.2rem 2rem 3rem; max-width: 860px; }
 .crumbs { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.6rem; }
 .crumbs a { color: var(--accent); text-decoration: none; }

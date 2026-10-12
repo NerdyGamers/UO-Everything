@@ -221,6 +221,7 @@
     var known = SITE.sections.some(function (s) { return s.id === section; });
     if (!known) { show404(r); return; }
     getSection(section).then(function () {
+      renderSidebar(section, r);
       if (r === "items/catalog") { showCatalog(); return; }
       fetchText(RAW + "/" + r + ".md").then(function (pg) {
         if (pg.ok) { showPage(r, pg.text); return; }
@@ -232,11 +233,35 @@
     });
   }
 
-  function renderSidebar() {
+  function treeHtml(sec, node, base, cur) {
+    var h = "<ul>";
+    node.dirs.forEach(function (d) {
+      var sub = sec.data.tree[d];
+      if (!sub) return;
+      var name = d.split("/").pop().replace(/-/g, " ");
+      var open = cur === sec.id + "/" + d || cur.indexOf(sec.id + "/" + d + "/") === 0 ? " open" : "";
+      h += "<li><details" + open + "><summary>" + esc(name) + "</summary>" +
+        treeHtml(sec, sub, d, cur) + "</details></li>";
+    });
+    node.files.forEach(function (f) {
+      var p = sec.id + "/" + (base ? base + "/" : "") + f.n.replace(/\.md$/i, "");
+      var cls = p === cur ? ' class="cur"' : "";
+      h += '<li><a href="#/' + p + '"' + cls + ">" + esc(f.t) + "</a></li>";
+    });
+    return h + "</ul>";
+  }
+
+  function renderSidebar(section, cur) {
     var html = "<h3>Sections</h3><ul>" + SITE.sections.map(function (s) {
-      return '<li><a href="#/' + esc(s.id) + '">' + esc(s.title) +
+      var cls = section === s.id ? ' class="active"' : "";
+      return '<li><a href="#/' + esc(s.id) + '"' + cls + ">" + esc(s.title) +
         ' <span class="count">' + s.count + "</span></a></li>";
     }).join("") + "</ul>";
+    if (section && sectionCache[section]) {
+      var sec = { id: section, data: sectionCache[section].data };
+      html += '<h3 class="treetitle">In this section</h3><div class="sectree">' +
+        treeHtml(sec, sec.data.tree[""], "", cur || "") + "</div>";
+    }
     html += '<h3>Reference</h3><ul><li><a href="#/items/catalog">Item catalog lookup</a></li></ul>';
     sidebarEl.innerHTML = html;
   }
