@@ -4,6 +4,8 @@
 
 Explores Elven resurgence and Heartwood's role in reshaping Britannia's alliances.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Return of the Elves and the establishment of Heartwood as a cultural stronghold.
 - Peerless encounters like Dread Horn and Travesty expanding endgame lore.

@@ -4,6 +4,8 @@
 
 An era defined by housing reforms, artifact-driven power creep, and the Malas facet.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Construction of Luna and Umbra, framing virtue and necromantic power centers.
 - Introduction of item properties and artifacts reshaping Britannian warfare.

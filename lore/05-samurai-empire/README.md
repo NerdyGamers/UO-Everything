@@ -4,6 +4,8 @@
 
 Tokuno Islands broaden Britannian contact with eastern-inspired traditions and supernatural threats.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Arrival of the Tokuno emissaries and the cultural exchange shaping honor-focused combat.
 - Yamandon, Oni, and other Yokai tales influencing frontier settlements.

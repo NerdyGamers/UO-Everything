@@ -4,6 +4,8 @@
 
 Chronicles the Valley of Eodon, Shadowguard, and the rekindling of Sosarian myths.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Eodon tribes and the Myrmidex war altering Britannian diplomatic ties.
 - Shadowguard trials and their ties to historical figures like Minax and Dupre.

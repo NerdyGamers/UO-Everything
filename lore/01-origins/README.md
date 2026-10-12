@@ -4,6 +4,8 @@
 
 Foundational lore leading to the rise of Britannia and the early shards of Sosaria. Use this section to anchor later era events.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Founding myths of Sosaria, Mondain's Gem, and the Virtue system introduced by Lord British.
 - Exodus conflict and the aftermath that frames early dungeon ecology.

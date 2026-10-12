@@ -4,6 +4,8 @@
 
 Covers the 1998 expansion introducing new lands and sea content that expanded Britannia's frontier.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Discovery of the Lost Lands, including Papuan ruins and Delucia frontier tales.
 - Rise of sea-faring threats such as sea serpents and pirates influencing coastal settlements.

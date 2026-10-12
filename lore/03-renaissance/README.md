@@ -4,6 +4,8 @@
 
 The Renaissance split mirrored worlds and revitalized Britannia's population centers.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Introduction of Trammel and Felucca as parallel facets with differing rule sets.
 - Sosarian societal shifts as guilds adapt to consensual PvP boundaries.

@@ -4,6 +4,8 @@
 
 Maritime expansion emphasizing nautical threats and seafaring commerce.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Rebuilt shipcraft traditions and the introduction of warships and gargish vessels.
 - Pirate captains, merchant convoys, and the maritime economy reshaping port towns.

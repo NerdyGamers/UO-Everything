@@ -4,6 +4,8 @@
 
 Focuses on the gargoyle homeland, the Abyssal Labyrinth, and imbuing's lore roots.
 
+Read the full [era overview](overview.md).
+
 ## Highlights
 - Gargoyle culture, the Queen's edicts, and the fracturing between Royal City and renegades.
 - Stygian Abyss dungeon ecology including Stygian Dragon and Slasher of Veils myths.
