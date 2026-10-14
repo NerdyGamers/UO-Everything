@@ -1,3 +1,8 @@
+---
+title: Player Events
+type: community
+---
+
 # Player Events
 
 Player-run events are the community's own content: auctions, tournaments, weddings, tavern nights, and scavenger hunts organized by players rather than the developers. On many shards they are as much a draw as the game's official content.

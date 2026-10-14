@@ -1,3 +1,8 @@
+---
+title: The Launch Era (1997–1999)
+type: history
+---
+
 # The Launch Era (1997–1999)
 
 Ultima Online launched on September 24, 1997 — the first massively multiplayer online RPG to reach a mass audience, and the game that defined the persistent-world genre.

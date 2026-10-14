@@ -1,3 +1,8 @@
+---
+title: The Second Age (1998)
+type: history
+---
+
 # The Second Age (1998)
 
 The Second Age, released October 1998, was Ultima Online's first retail expansion — sold as a physical boxed product — and it added an entire new continent: the Lost Lands.

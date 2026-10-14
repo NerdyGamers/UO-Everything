@@ -1,3 +1,8 @@
+---
+title: Moving House
+type: housing
+---
+
 # Moving House
 
 Moving house packs your entire plot — structure, lockdowns, and secures — into a moving crate so you can relocate to a new plot without losing everything.

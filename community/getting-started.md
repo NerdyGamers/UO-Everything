@@ -1,3 +1,8 @@
+---
+title: Getting Started
+type: community
+---
+
 # Getting Started
 
 New players enter Ultima Online through the Young player system and the New Haven starter quests, which compress the early learning curve that used to take weeks.

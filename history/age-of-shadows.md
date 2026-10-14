@@ -1,3 +1,8 @@
+---
+title: Age of Shadows (2003)
+type: history
+---
+
 # Age of Shadows (2003)
 
 Age of Shadows, released February 2003, rebuilt Ultima Online's itemization from the ground up — the property system, item insurance, custom housing, and a new continent. The modern game is built on its foundation.

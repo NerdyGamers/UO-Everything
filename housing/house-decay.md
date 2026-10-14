@@ -1,3 +1,8 @@
+---
+title: House Decay
+type: housing
+---
+
 # House Decay
 
 Houses stay standing only while their owner stays active: every house must be periodically refreshed, and a house left unrefreshed passes through decay stages until it collapses — the famous IDOC, "in danger of collapsing."

@@ -1,3 +1,8 @@
+---
+title: Player Economy
+type: community
+---
+
 # Player Economy
 
 Ultima Online's economy is almost entirely player-driven: vendors, trade hubs, and auction culture move the gold, while NPCs play only a supporting role.

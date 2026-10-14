@@ -1,3 +1,9 @@
+---
+title: Crafting & Trade Skills
+type: crafting
+index_page: true
+---
+
 # Crafting & Trade Skills
 
 **Canon scope:** Canon (flag custom shard recipes or drop tables as non-canon).

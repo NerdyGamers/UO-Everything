@@ -1,3 +1,9 @@
+---
+title: Artifacts
+type: item
+overview_page: true
+---
+
 # Artifacts
 
 Artifacts are named, fixed-property items awarded for defeating the game's hardest content. Unlike crafted or imbued gear, an artifact's properties are set by design — what makes one desirable is the combination, not the roll.

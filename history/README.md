@@ -1,3 +1,9 @@
+---
+title: History & Patch Timeline
+type: history
+index_page: true
+---
+
 # History & Patch Timeline
 
 **Canon scope:** Canon for official releases; mark shard-specific timelines or recollections as non-canon.

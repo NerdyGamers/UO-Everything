@@ -1,3 +1,9 @@
+---
+title: Armor
+type: item
+overview_page: true
+---
+
 # Armor
 
 Armor is worn in six body slots — head, neck (gorget), arms, gloves, chest, and legs — plus a shield slot. Every piece contributes resists, and armor sets define a character's defenses as much as their skills do.

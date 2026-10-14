@@ -1,3 +1,8 @@
+---
+title: Renaissance (2000)
+type: history
+---
+
 # Renaissance (2000)
 
 Renaissance, released May 2000, made the single most consequential change in Ultima Online's history: it split the world in two. Britannia was mirrored into Trammel — where non-consensual PvP was abolished — and Felucca, which kept the original rules.

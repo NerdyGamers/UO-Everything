@@ -1,3 +1,8 @@
+---
+title: Community Knowledge Sites
+type: community
+---
+
 # Community Knowledge Sites
 
 Ultima Online's documentation has always lived mostly outside the game: fan sites, wikis, forums, and chat communities that catalog mechanics, maps, and item data the client never explains.

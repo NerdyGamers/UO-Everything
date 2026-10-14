@@ -1,3 +1,9 @@
+---
+title: Housing & Decoration
+type: housing
+index_page: true
+---
+
 # Housing & Decoration
 
 **Canon scope:** Canon (mark shard-specific placement rules or custom deco systems as non-canon).

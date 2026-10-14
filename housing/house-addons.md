@@ -1,3 +1,8 @@
+---
+title: House Addons
+type: housing
+---
+
 # House Addons
 
 House addons are multi-tile fixtures — crafting stations, beds, teleporters, water troughs — placed from deeds and locked down like furniture, but bigger and often functional.

@@ -1,3 +1,9 @@
+---
+title: Items & Equipment
+type: item
+index_page: true
+---
+
 # Items & Equipment
 
 **Canon scope:** Mixed (core gear is canon; shard-only items or custom artifacts should be labeled non-canon).

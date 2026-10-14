@@ -1,3 +1,8 @@
+---
+title: Runic Tools
+type: crafting
+---
+
 # Runic Tools
 
 Runic tools let crafters forge magic directly into their work: each use consumes one of the tool's charges and adds random magical properties to the crafted item. They are the premier reward of the [bulk order deed](bulk-order-deeds.md) system.

@@ -1,3 +1,8 @@
+---
+title: Crafting Basics
+type: crafting
+---
+
 # Crafting Basics
 
 Crafting in Ultima Online turns raw materials into finished goods through skill-gated menus. Each trade skill uses its own set of tools and works through a crafting gump that lists every recipe the character can attempt.

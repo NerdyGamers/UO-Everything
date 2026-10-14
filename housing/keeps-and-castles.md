@@ -1,3 +1,8 @@
+---
+title: Keeps and Castles
+type: housing
+---
+
 # Keeps and Castles
 
 Keeps and castles are the classic large pre-built houses — the biggest fixed designs in the game, and enduring status symbols. They predate [custom housing](custom-housing.md) and remain the anchors of many player neighborhoods.

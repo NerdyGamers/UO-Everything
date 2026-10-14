@@ -1,3 +1,8 @@
+---
+title: Player Vendors
+type: housing
+---
+
 # Player Vendors
 
 Player vendors are NPC shopkeepers you hire to sell goods from your house: you stock them with items and prices, and they handle the sales while you are offline, taking a daily fee from their earnings.

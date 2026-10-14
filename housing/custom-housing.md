@@ -1,3 +1,8 @@
+---
+title: Custom Housing
+type: housing
+---
+
 # Custom Housing
 
 Custom houses let players design their own homes wall by wall instead of picking a pre-built design. The house designer is a full in-game editor for plots, and most player homes in the modern game are custom-built.

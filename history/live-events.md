@@ -1,3 +1,8 @@
+---
+title: Live Events and the EM Program
+type: history
+---
+
 # Live Events and the EM Program
 
 Beyond publishes and expansions, Ultima Online's history is written week by week on individual shards — through the Event Moderator program, story arcs, invasions, and holiday events that make each shard's timeline its own.

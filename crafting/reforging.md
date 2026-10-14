@@ -1,3 +1,8 @@
+---
+title: Reforging
+type: crafting
+---
+
 # Reforging
 
 Reforging spends charges from a [runic tool](runic-tools.md) to reshape a crafted item's properties at the moment of creation, offering choices no ordinary crafting attempt provides.

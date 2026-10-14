@@ -1,3 +1,8 @@
+---
+title: Inscription Craft
+type: crafting
+---
+
 # Inscription Craft
 
 [Inscription](../skills/magic/inscription.md) turns blank scrolls, paper, and reagents into the consumables and containers spellcasters depend on: spell scrolls, spellbooks, runebooks, and recall runes.

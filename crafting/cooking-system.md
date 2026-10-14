@@ -1,3 +1,8 @@
+---
+title: Cooking System
+type: crafting
+---
+
 # Cooking System
 
 Beyond restoring hunger, [Cooking](../skills/crafting/cooking.md) produces magical foods that grant short-term buffs — and a few that solve problems no potion covers.

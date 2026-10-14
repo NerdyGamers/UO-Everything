@@ -1,3 +1,8 @@
+---
+title: Expansions 2004–2015
+type: history
+---
+
 # Expansions 2004–2015
 
 After [Age of Shadows](age-of-shadows.md) redefined itemization, Ultima Online's next decade of expansions added new lands, races, skills, and systems at a steady clip — each one layering onto the game rather than replacing what came before.

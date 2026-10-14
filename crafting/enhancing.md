@@ -1,3 +1,8 @@
+---
+title: Enhancing
+type: crafting
+---
+
 # Enhancing
 
 Enhancing applies a runic-tier material directly to a finished item, adding that material's bonuses after the fact. It is the final step in producing top-end player-crafted gear — and a gamble, because failure destroys the item.

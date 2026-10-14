@@ -1,3 +1,8 @@
+---
+title: The Broadsword Era
+type: history
+---
+
 # The Broadsword Era
 
 Since 2014, Ultima Online has been developed and operated by Broadsword Online Games — a stewardship era defined less by sweeping reinvention than by preservation, steady publishes, and opening the game to new players.

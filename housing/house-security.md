@@ -1,3 +1,8 @@
+---
+title: House Security
+type: housing
+---
+
 # House Security
 
 House security controls who can enter a house, use its doors, and touch its contents. Every house has an owner, an access list, and a ban list, and the settings distinguish public houses from private ones.

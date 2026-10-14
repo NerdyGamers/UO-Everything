@@ -1,3 +1,8 @@
+---
+title: Material Tiers
+type: crafting
+---
+
 # Material Tiers
 
 Beyond plain iron, leather, and wood, Britannia's crafters work with tiered materials — each step up the ladder adding resists, damage, or luck to the finished item. The tiers mirror the crafting skills in [skills](../skills/README.md).

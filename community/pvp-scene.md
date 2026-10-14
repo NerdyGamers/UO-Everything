@@ -1,3 +1,8 @@
+---
+title: The PvP Scene
+type: community
+---
+
 # The PvP Scene
 
 Player-versus-player combat is one of Ultima Online's defining cultures: Felucca field fights, duel pits, and organized tournaments, with a scene that has refined templates, tactics, and etiquette over decades. It is distinct from the faction system, which is one venue for PvP among several (see [Factions](../mechanics/factions.md)).

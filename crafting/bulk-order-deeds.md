@@ -1,3 +1,8 @@
+---
+title: Bulk Order Deeds
+type: crafting
+---
+
 # Bulk Order Deeds
 
 Bulk order deeds (BODs) are crafting contracts offered by NPC shopkeepers: craft exactly what the deed asks for, turn it in, and receive a reward scaled to the order's difficulty. They are the main path to [runic tools](runic-tools.md) and crafting power scrolls.

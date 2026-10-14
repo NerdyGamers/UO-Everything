@@ -1,3 +1,9 @@
+---
+title: Community & History
+type: community
+index_page: true
+---
+
 # Community & History
 
 **Canon scope:** Non-canon leaning (player accounts and shard culture); call out when referencing official announcements or patch notes.

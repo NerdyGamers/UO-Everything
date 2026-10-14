@@ -1,3 +1,8 @@
+---
+title: Roleplaying
+type: community
+---
+
 # Roleplaying
 
 Ultima Online has sustained one of the longest-running roleplaying communities in online gaming: players who stay in character, build personas with histories and allegiances, and treat Britannia as a world rather than a game board. Taverns, courts, and guild halls are its venues.

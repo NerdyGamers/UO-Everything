@@ -1,3 +1,8 @@
+---
+title: House Basics
+type: housing
+---
+
 # House Basics
 
 Placing a house in Ultima Online starts with a deed and a patch of valid land. Houses are persistent structures that give characters secure storage, a recall point, and a place in the world.

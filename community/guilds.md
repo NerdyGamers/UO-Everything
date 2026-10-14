@@ -1,3 +1,8 @@
+---
+title: Guilds
+type: community
+---
+
 # Guilds
 
 Guilds are Ultima Online's player organizations: persistent groups with a shared name, abbreviation, chat channel, and the ability to declare war on other guilds. They are the backbone of UO's social and political life, from crafting cooperatives to PvP war machines.

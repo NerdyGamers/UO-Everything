@@ -1,3 +1,8 @@
+---
+title: Imbuing System
+type: crafting
+---
+
 # Imbuing System
 
 Imbuing adds magical properties to weapons, armor, jewelry, and spellbooks after they are crafted, using ingredients harvested by unraveling other magic items at a Soul Forge.
