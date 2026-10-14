@@ -1,3 +1,14 @@
+---
+title: book
+type: item
+item_id: '0x0FBE'
+dec_id: 4030
+tile_flags:
+- ArticleA (0x00004000)
+weight: 5.0
+height: 1.0
+---
+
 # book
 
 **Item ID:** `0x0fbe` (4030)

@@ -1,3 +1,14 @@
+---
+title: mahjong game
+type: item
+item_id: '0x0FAA'
+dec_id: 4010
+tile_flags:
+- ArticleA (0x00004000)
+weight: 5.0
+height: 1.0
+---
+
 # mahjong game
 
 **Item ID:** `0x0faa` (4010)

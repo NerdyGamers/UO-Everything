@@ -1,3 +1,14 @@
+---
+title: string of shells
+type: item
+item_id: '0x0FCF'
+dec_id: 4047
+tile_flags:
+- ArticleA (0x00004000)
+weight: 255.0
+height: 0.0
+---
+
 # string of shells
 
 **Item ID:** `0x0fcf` (4047)

@@ -1,3 +1,14 @@
+---
+title: bottle
+type: item
+item_id: '0x0EFC'
+dec_id: 3836
+tile_flags:
+- ArticleA (0x00004000)
+weight: 1.0
+height: 1.0
+---
+
 # bottle
 
 **Item ID:** `0x0efc` (3836)

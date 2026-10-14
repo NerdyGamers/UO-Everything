@@ -1,3 +1,15 @@
+---
+title: pentagram
+type: item
+item_id: '0x0FEA'
+dec_id: 4074
+tile_flags:
+- Surface
+- ArticleA (0x00004200)
+weight: 255.0
+height: 0.0
+---
+
 # pentagram
 
 **Item ID:** `0x0fea` (4074)

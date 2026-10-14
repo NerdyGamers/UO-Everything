@@ -1,3 +1,15 @@
+---
+title: dyeing tub
+type: item
+item_id: '0x0FAB'
+dec_id: 4011
+tile_flags:
+- PartialHue
+- Unknown3 (0x04040000)
+weight: 10.0
+height: 1.0
+---
+
 # dyeing tub
 
 **Item ID:** `0x0fab` (4011)

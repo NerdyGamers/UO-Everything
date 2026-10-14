@@ -1,3 +1,14 @@
+---
+title: skull mug
+type: item
+item_id: '0x0FFD'
+dec_id: 4093
+tile_flags:
+- None (0x00000000)
+weight: 1.0
+height: 1.0
+---
+
 # skull mug
 
 **Item ID:** `0x0ffd` (4093)
