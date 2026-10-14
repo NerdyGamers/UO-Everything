@@ -1,3 +1,15 @@
+---
+title: elven bookstand
+type: item
+item_id: '0x2DDE'
+dec_id: 11742
+tile_flags:
+- Impassable
+- ArticleA (0x00004040)
+weight: 255.0
+height: 5.0
+---
+
 # elven bookstand
 
 **Item ID:** `0x2dde` (11742)

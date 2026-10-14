@@ -1,3 +1,15 @@
+---
+title: spell stone
+type: item
+item_id: '0x2DAF'
+dec_id: 11695
+tile_flags:
+- Generic
+- ArticleA (0x00004800)
+weight: 1.0
+height: 1.0
+---
+
 # spell stone
 
 **Item ID:** `0x2daf` (11695)

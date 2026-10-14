@@ -1,3 +1,14 @@
+---
+title: Rising Colossus
+type: item
+item_id: '0x2DAD'
+dec_id: 11693
+tile_flags:
+- Generic (0x00000800)
+weight: 1.0
+height: 0.0
+---
+
 # Rising Colossus
 
 **Item ID:** `0x2dad` (11693)

@@ -1,3 +1,14 @@
+---
+title: Hail Storm
+type: item
+item_id: '0x2DAB'
+dec_id: 11691
+tile_flags:
+- Generic (0x00000800)
+weight: 1.0
+height: 0.0
+---
+
 # Hail Storm
 
 **Item ID:** `0x2dab` (11691)
