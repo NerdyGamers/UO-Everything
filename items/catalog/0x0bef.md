@@ -1,3 +1,16 @@
+---
+title: Archers' Guild
+type: item
+item_id: '0x0BEF'
+dec_id: 3055
+tile_flags:
+- Transparent
+- ArticleA
+- ArticleAn (0x0000c004)
+weight: 255.0
+height: 0.0
+---
+
 # Archers' Guild
 
 **Item ID:** `0x0bef` (3055)

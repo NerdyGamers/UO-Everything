@@ -1,3 +1,16 @@
+---
+title: Miners' Guild
+type: item
+item_id: '0x0BED'
+dec_id: 3053
+tile_flags:
+- Transparent
+- ArticleA
+- ArticleAn (0x0000c004)
+weight: 255.0
+height: 0.0
+---
+
 # Miners' Guild
 
 **Item ID:** `0x0bed` (3053)

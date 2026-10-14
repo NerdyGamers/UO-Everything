@@ -1,3 +1,16 @@
+---
+title: Rogues' Guild
+type: item
+item_id: '0x0BFE'
+dec_id: 3070
+tile_flags:
+- Transparent
+- ArticleA
+- ArticleAn (0x0000c004)
+weight: 255.0
+height: 0.0
+---
+
 # Rogues' Guild
 
 **Item ID:** `0x0bfe` (3070)

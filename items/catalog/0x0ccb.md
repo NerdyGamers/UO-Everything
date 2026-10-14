@@ -1,3 +1,16 @@
+---
+title: tree
+type: item
+item_id: '0x0CCB'
+dec_id: 3275
+tile_flags:
+- Background
+- Impassable
+- ArticleA (0x00004041)
+weight: 255.0
+height: 20.0
+---
+
 # tree
 
 **Item ID:** `0x0ccb` (3275)

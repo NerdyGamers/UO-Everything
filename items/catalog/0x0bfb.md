@@ -1,3 +1,16 @@
+---
+title: Thieves' Guild
+type: item
+item_id: '0x0BFB'
+dec_id: 3067
+tile_flags:
+- Transparent
+- ArticleA
+- ArticleAn (0x0000c004)
+weight: 255.0
+height: 0.0
+---
+
 # Thieves' Guild
 
 **Item ID:** `0x0bfb` (3067)

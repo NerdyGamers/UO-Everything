@@ -1,3 +1,15 @@
+---
+title: leaves
+type: item
+item_id: '0x0CCE'
+dec_id: 3278
+tile_flags:
+- Impassable
+- Foliage (0x00020040)
+weight: 255.0
+height: 2.0
+---
+
 # leaves
 
 **Item ID:** `0x0cce` (3278)

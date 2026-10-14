@@ -1,3 +1,14 @@
+---
+title: poppies
+type: item
+item_id: '0x0CBE'
+dec_id: 3262
+tile_flags:
+- Background (0x00000001)
+weight: 255.0
+height: 0.0
+---
+
 # poppies
 
 **Item ID:** `0x0cbe` (3262)

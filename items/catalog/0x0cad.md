@@ -1,3 +1,14 @@
+---
+title: grasses
+type: item
+item_id: '0x0CAD'
+dec_id: 3245
+tile_flags:
+- Background (0x00000001)
+weight: 255.0
+height: 0.0
+---
+
 # grasses
 
 **Item ID:** `0x0cad` (3245)
