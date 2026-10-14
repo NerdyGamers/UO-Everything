@@ -1,3 +1,15 @@
+---
+title: summon moongate
+type: item
+item_id: '0x1AED'
+dec_id: 6893
+tile_flags:
+- LightSource
+- Animation (0x01800000)
+weight: 0.0
+height: 0.0
+---
+
 # summon moongate
 
 **Item ID:** `0x1aed` (6893)

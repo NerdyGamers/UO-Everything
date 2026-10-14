@@ -1,3 +1,14 @@
+---
+title: lighthouse
+type: item
+item_id: '0x1ACD'
+dec_id: 6861
+tile_flags:
+- Impassable (0x00000040)
+weight: 0.0
+height: 12.0
+---
+
 # lighthouse
 
 **Item ID:** `0x1acd` (6861)
