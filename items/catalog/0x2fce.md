@@ -1,3 +1,15 @@
+---
+title: Elven_Hair
+type: item
+item_id: '0x2FCE'
+dec_id: 12238
+tile_flags:
+- Weapon
+- Wearable (0x00400002)
+weight: 2.0
+height: 1.0
+---
+
 # Elven_Hair
 
 **Item ID:** `0x2fce` (12238)

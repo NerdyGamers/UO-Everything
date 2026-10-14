@@ -1,3 +1,16 @@
+---
+title: display case
+type: item
+item_id: '0x2FEA'
+dec_id: 12266
+tile_flags:
+- Impassable
+- Surface
+- ArticleA (0x00004240)
+weight: 255.0
+height: 5.0
+---
+
 # display case
 
 **Item ID:** `0x2fea` (12266)

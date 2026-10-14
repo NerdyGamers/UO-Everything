@@ -1,3 +1,14 @@
+---
+title: ASSIGNED TO CMI
+type: item
+item_id: '0x2FDB'
+dec_id: 12251
+tile_flags:
+- None (0x00000000)
+weight: 0.0
+height: 0.0
+---
+
 # ASSIGNED TO CMI
 
 **Item ID:** `0x2fdb` (12251)

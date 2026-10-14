@@ -1,3 +1,18 @@
+---
+title: gothic column
+type: item
+item_id: '0x2FEC'
+dec_id: 12268
+tile_flags:
+- Background
+- Wall
+- Impassable
+- NoShoot
+- ArticleA (0x00006051)
+weight: 255.0
+height: 20.0
+---
+
 # gothic column
 
 **Item ID:** `0x2fec` (12268)

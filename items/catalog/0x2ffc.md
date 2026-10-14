@@ -1,3 +1,18 @@
+---
+title: wall
+type: item
+item_id: '0x2FFC'
+dec_id: 12284
+tile_flags:
+- Background
+- Wall
+- Impassable
+- NoShoot
+- ArticleA (0x00006051)
+weight: 255.0
+height: 20.0
+---
+
 # wall
 
 **Item ID:** `0x2ffc` (12284)
