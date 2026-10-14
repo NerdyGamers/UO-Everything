@@ -1,3 +1,15 @@
+---
+title: tree
+type: item
+item_id: '0x3AAA'
+dec_id: 15018
+tile_flags:
+- Background
+- ArticleA (0x00004001)
+weight: 0.0
+height: 20.0
+---
+
 # tree
 
 **Item ID:** `0x3aaa` (15018)

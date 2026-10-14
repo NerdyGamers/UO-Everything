@@ -1,3 +1,16 @@
+---
+title: tree
+type: item
+item_id: '0x3ACD'
+dec_id: 15053
+tile_flags:
+- Background
+- ArticleA
+- Foliage (0x00024001)
+weight: 0.0
+height: 20.0
+---
+
 # tree
 
 **Item ID:** `0x3acd` (15053)
