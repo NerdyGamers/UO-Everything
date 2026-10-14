@@ -1,3 +1,15 @@
+---
+title: Healer
+type: item
+item_id: '0x0BAB'
+dec_id: 2987
+tile_flags:
+- Transparent
+- ArticleA (0x00004004)
+weight: 255.0
+height: 0.0
+---
+
 # Healer
 
 **Item ID:** `0x0bab` (2987)
