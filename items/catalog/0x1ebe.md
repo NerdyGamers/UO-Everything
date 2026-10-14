@@ -1,3 +1,14 @@
+---
+title: wheat sprouts
+type: item
+item_id: '0x1EBE'
+dec_id: 7870
+tile_flags:
+- None (0x00000000)
+weight: 0.0
+height: 0.0
+---
+
 # wheat sprouts
 
 **Item ID:** `0x1ebe` (7870)

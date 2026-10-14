@@ -1,3 +1,15 @@
+---
+title: magical door
+type: item
+item_id: '0x1EDA'
+dec_id: 7898
+tile_flags:
+- Translucent
+- ArticleA (0x00004008)
+weight: 0.0
+height: 0.0
+---
+
 # magical door
 
 **Item ID:** `0x1eda` (7898)
