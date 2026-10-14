@@ -12,6 +12,12 @@ These instructions apply to all files in this repository.
 - Include era/shard context when relevant. Put sources as a simple annotation list at the bottom of each page, and note when information is community recollection.
 - Favor neutral, descriptive writing; represent differing viewpoints with attribution.
 
+## Front matter (Stage 1)
+- Every content page carries YAML front matter per `schema/front-matter.schema.json`; enum values come from `taxonomy/taxonomy.yaml` (the single source of truth).
+- New pages: copy the matching `templates/<type>.md` and fill in what the sources support. Never guess a field the sources don't establish — leave it absent.
+- Run `pipelines/validate_front_matter.py` before committing content changes; content CI fails on validation errors.
+- `taxonomy.yaml` slugs are stable: renaming one is a migration (update taxonomy, re-validate, fix every affected page in one commit).
+
 ## Repository hygiene
 - Avoid try/catch around imports in code (if code is added later).
 - Keep README files in subdirectories concise and focused on linking related documents.

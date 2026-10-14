@@ -1,0 +1,149 @@
+# UO-Everything controlled vocabularies (Stage 1)
+# Single source of truth. Slugs are stable: renaming one is a migration, not an edit.
+
+page_types:
+  - item
+  - mobile
+  - npc
+  - skill
+  - spell
+  - ability
+  - mechanic
+  - location
+  - lore
+  - quest
+  - crafting
+  - housing
+  - shard
+  - community
+  - history
+
+canon_labels:
+  - canon
+  - non-canon
+
+eras:
+  origins:
+    label: "Origins"
+    years: "pre-1998"
+  second-age:
+    label: "The Second Age"
+    years: "1998"
+  renaissance:
+    label: "Renaissance"
+    years: "2000"
+  age-of-shadows:
+    label: "Age of Shadows"
+    years: "2003"
+  samurai-empire:
+    label: "Samurai Empire"
+    years: "2004"
+  mondains-legacy:
+    label: "Mondain's Legacy"
+    years: "2005"
+  stygian-abyss:
+    label: "Stygian Abyss"
+    years: "2009"
+  high-seas:
+    label: "High Seas"
+    years: "2010"
+  time-of-legends:
+    label: "Time of Legends"
+    years: "2015"
+
+expansions:
+  second-age:
+    label: "The Second Age"
+    year: 1998
+  renaissance:
+    label: "Renaissance"
+    year: 2000
+  third-dawn:
+    label: "Third Dawn"
+    year: 2001
+  lord-blackthorns-revenge:
+    label: "Lord Blackthorn's Revenge"
+    year: 2002
+  age-of-shadows:
+    label: "Age of Shadows"
+    year: 2003
+  samurai-empire:
+    label: "Samurai Empire"
+    year: 2004
+  mondains-legacy:
+    label: "Mondain's Legacy"
+    year: 2005
+  stygian-abyss:
+    label: "Stygian Abyss"
+    year: 2009
+  high-seas:
+    label: "High Seas"
+    year: 2010
+  time-of-legends:
+    label: "Time of Legends"
+    year: 2015
+
+facets:
+  - felucca
+  - trammel
+  - ilshenar
+  - malas
+  - tokuno
+  - termur
+  - eodon
+
+skill_groups:
+  - combat
+  - magic
+  - crafting
+  - gathering
+  - bard
+  - rogue
+  - wilderness
+  - misc
+
+spell_schools:
+  - magery
+  - necromancy
+  - chivalry
+  - spellweaving
+  - mysticism
+
+mobile_families:
+  - undead
+  - demon
+  - animal
+  - reptile
+  - elemental
+  - fey
+  - humanoid
+  - abyssal
+  - sea
+  - tokuno
+
+item_categories:
+  - weapon
+  - armor
+  - clothing
+  - jewelry
+  - consumable
+  - reagent
+  - resource
+  - container
+  - furniture
+  - deed
+  - spellbook
+  - mount
+  - tool
+  - misc
+
+location_types:
+  - city
+  - town
+  - dungeon
+  - facet
+  - shrine
+  - champion-spawn
+  - peerless-lair
+  - landmark
+  - region

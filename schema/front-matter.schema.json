@@ -1,0 +1,217 @@
+{
+  "$id": "https://nerdygamers.github.io/UO-Everything/schema/front-matter.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "lore"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "canon"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "item"
+          },
+          "overview_page": {
+            "not": {
+              "const": true
+            }
+          }
+        },
+        "required": [
+          "type"
+        ]
+      },
+      "then": {
+        "required": [
+          "item_id"
+        ]
+      }
+    }
+  ],
+  "description": "Stage 1 metadata schema. Enum values are validated against taxonomy/taxonomy.yaml by pipelines/validate_front_matter.py (see x-taxonomy annotations).",
+  "properties": {
+    "artifact": {
+      "type": "boolean"
+    },
+    "body_id": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "boss": {
+      "type": "boolean"
+    },
+    "canon": {
+      "description": "Required when type is lore.",
+      "type": "string",
+      "x-taxonomy": "canon_labels"
+    },
+    "cap": {
+      "enum": [
+        100,
+        120
+      ],
+      "type": "integer"
+    },
+    "categories": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "champion": {
+      "type": "boolean"
+    },
+    "circle": {
+      "maximum": 8,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "community_recollection": {
+      "type": "boolean"
+    },
+    "dec_id": {
+      "maximum": 65535,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "discipline": {
+      "enum": [
+        "bushido",
+        "ninjitsu"
+      ],
+      "type": "string"
+    },
+    "eras": {
+      "items": {
+        "type": "string",
+        "x-taxonomy": "eras"
+      },
+      "type": "array"
+    },
+    "expansions": {
+      "items": {
+        "type": "string",
+        "x-taxonomy": "expansions"
+      },
+      "type": "array"
+    },
+    "facets": {
+      "items": {
+        "type": "string",
+        "x-taxonomy": "facets"
+      },
+      "type": "array"
+    },
+    "family": {
+      "type": "string",
+      "x-taxonomy": "mobile_families"
+    },
+    "height": {
+      "minimum": 0,
+      "type": "number"
+    },
+    "image": {
+      "description": "Path to thumbnail, keyed by entity ID (Stage 2). e.g. images/items/0x0F0A.png",
+      "type": "string"
+    },
+    "index_page": {
+      "description": "True for README/index pages that list a section rather than documenting one entity.",
+      "type": "boolean"
+    },
+    "item_category": {
+      "type": "string",
+      "x-taxonomy": "item_categories"
+    },
+    "item_id": {
+      "description": "Required when type is item.",
+      "pattern": "^0x[0-9A-Fa-f]{4}$",
+      "type": "string"
+    },
+    "location": {
+      "description": "Relative path to the location page.",
+      "type": "string"
+    },
+    "location_type": {
+      "type": "string",
+      "x-taxonomy": "location_types"
+    },
+    "mana": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "peerless": {
+      "type": "boolean"
+    },
+    "related": {
+      "description": "Relative paths to related pages.",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "role": {
+      "type": "string"
+    },
+    "school": {
+      "type": "string",
+      "x-taxonomy": "spell_schools"
+    },
+    "skill_group": {
+      "type": "string",
+      "x-taxonomy": "skill_groups"
+    },
+    "skill_required": {
+      "minimum": 0,
+      "type": "number"
+    },
+    "sources": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "tile_flags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "x-taxonomy": "page_types"
+    },
+    "weight": {
+      "minimum": 0,
+      "type": "number"
+    },
+    "overview_page": {
+      "type": "boolean",
+      "description": "True for category/system overview pages covering many entities rather than one (e.g. items/armor.md). Exempts type=item pages from the item_id requirement."
+    }
+  },
+  "required": [
+    "title",
+    "type"
+  ],
+  "title": "UO-Everything page front matter",
+  "type": "object"
+}
