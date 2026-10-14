@@ -1,3 +1,14 @@
+---
+title: fall leaves
+type: item
+item_id: '0x0DAB'
+dec_id: 3499
+tile_flags:
+- Foliage (0x00020000)
+weight: 255.0
+height: 2.0
+---
+
 # fall leaves
 
 **Item ID:** `0x0dab` (3499)

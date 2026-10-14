@@ -1,3 +1,15 @@
+---
+title: cypress leaves
+type: item
+item_id: '0x0CFF'
+dec_id: 3327
+tile_flags:
+- Impassable
+- Foliage (0x00020040)
+weight: 255.0
+height: 2.0
+---
+
 # cypress leaves
 
 **Item ID:** `0x0cff` (3327)

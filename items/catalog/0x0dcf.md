@@ -1,3 +1,14 @@
+---
+title: fishing weight
+type: item
+item_id: '0x0DCF'
+dec_id: 3535
+tile_flags:
+- Generic (0x00000800)
+weight: 1.0
+height: 0.0
+---
+
 # fishing weight
 
 **Item ID:** `0x0dcf` (3535)

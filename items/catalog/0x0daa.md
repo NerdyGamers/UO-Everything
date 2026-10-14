@@ -1,3 +1,15 @@
+---
+title: pear tree
+type: item
+item_id: '0x0DAA'
+dec_id: 3498
+tile_flags:
+- ArticleA
+- Foliage (0x00024000)
+weight: 255.0
+height: 2.0
+---
+
 # pear tree
 
 **Item ID:** `0x0daa` (3498)

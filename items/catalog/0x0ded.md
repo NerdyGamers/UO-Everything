@@ -1,3 +1,14 @@
+---
+title: Tomato Plant Stage T
+type: item
+item_id: '0x0DED'
+dec_id: 3565
+tile_flags:
+- None (0x00000000)
+weight: 1.0
+height: 1.0
+---
+
 # Tomato Plant Stage T
 
 **Item ID:** `0x0ded` (3565)

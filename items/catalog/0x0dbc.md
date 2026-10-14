@@ -1,3 +1,16 @@
+---
+title: lilly pad
+type: item
+item_id: '0x0DBC'
+dec_id: 3516
+tile_flags:
+- ArticleA
+- ArticleAn
+- Unknown2 (0x0008c000)
+weight: 255.0
+height: 0.0
+---
+
 # lilly pad
 
 **Item ID:** `0x0dbc` (3516)

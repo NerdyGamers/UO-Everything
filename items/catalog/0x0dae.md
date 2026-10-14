@@ -1,3 +1,14 @@
+---
+title: wheat
+type: item
+item_id: '0x0DAE'
+dec_id: 3502
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # wheat
 
 **Item ID:** `0x0dae` (3502)

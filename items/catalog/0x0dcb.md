@@ -1,3 +1,14 @@
+---
+title: fishing net
+type: item
+item_id: '0x0DCB'
+dec_id: 3531
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # fishing net
 
 **Item ID:** `0x0dcb` (3531)

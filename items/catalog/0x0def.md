@@ -1,3 +1,14 @@
+---
+title: raw cotton
+type: item
+item_id: '0x0DEF'
+dec_id: 3567
+tile_flags:
+- None (0x00000000)
+weight: 4.0
+height: 1.0
+---
+
 # raw cotton
 
 **Item ID:** `0x0def` (3567)

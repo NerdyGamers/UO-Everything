@@ -1,3 +1,14 @@
+---
+title: seaweed
+type: item
+item_id: '0x0DBA'
+dec_id: 3514
+tile_flags:
+- Background (0x00000001)
+weight: 2.0
+height: 0.0
+---
+
 # seaweed
 
 **Item ID:** `0x0dba` (3514)

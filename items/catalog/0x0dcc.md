@@ -1,3 +1,14 @@
+---
+title: fishing weight
+type: item
+item_id: '0x0DCC'
+dec_id: 3532
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # fishing weight
 
 **Item ID:** `0x0dcc` (3532)

@@ -1,3 +1,16 @@
+---
+title: cypress tree
+type: item
+item_id: '0x0CFE'
+dec_id: 3326
+tile_flags:
+- Background
+- Impassable
+- ArticleA (0x00004041)
+weight: 255.0
+height: 20.0
+---
+
 # cypress tree
 
 **Item ID:** `0x0cfe` (3326)

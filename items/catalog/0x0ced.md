@@ -1,3 +1,14 @@
+---
+title: vines
+type: item
+item_id: '0x0CED'
+dec_id: 3309
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # vines
 
 **Item ID:** `0x0ced` (3309)
