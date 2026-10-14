@@ -23,6 +23,7 @@ import yaml
 from jsonschema import Draft202012Validator
 
 SKIP_DIRS = {".github", ".git", "UOAssetSuite", "schema", "taxonomy", "templates", "pipelines"}
+SKIP_FILES = {"AGENTS.md"}
 
 RECOMMENDED = ["summary", "sources"]
 
@@ -70,6 +71,9 @@ def main() -> int:
     files = sorted(
         p for p in root.rglob("*.md")
         if not any(part in SKIP_DIRS for part in p.relative_to(root).parts)
+        and p.name not in SKIP_FILES
+        and not (len(p.relative_to(root).parts) == 1
+                 and p.name in {"README.md", "ROADMAP.md"})
     )
 
     errors: list[str] = []

@@ -22,6 +22,8 @@ import yaml
 
 # Directories that are project infrastructure, not content.
 SKIP_DIRS = {".github", ".git", "UOAssetSuite", "schema", "taxonomy", "templates", "pipelines"}
+# Agent instruction files are not content pages.
+SKIP_FILES = {"AGENTS.md"}
 
 # path-prefix -> page type, longest match wins
 TYPE_MAP = [
@@ -50,6 +52,16 @@ FLAGS_RE = re.compile(r"^- Flags:\s*(.+)$", re.MULTILINE)
 WEIGHT_RE = re.compile(r"^- Weight:\s*([\d.]+)", re.MULTILINE)
 HEIGHT_RE = re.compile(r"^- Height:\s*([\d.]+)", re.MULTILINE)
 TITLE_RE = re.compile(r"^#\s+(.+)$", re.MULTILINE)
+CANON_RE = re.compile(r"^\*\*Non-Canon\*\*", re.MULTILINE)
+CANON_POS_RE = re.compile(r"^\*\*Canon\*\*", re.MULTILINE)
+
+
+def parse_canon(text: str) -> str | None:
+    if CANON_RE.search(text):
+        return "non-canon"
+    if CANON_POS_RE.search(text):
+        return "canon"
+    return None
 
 
 def page_type_for(rel: Path) -> str | None:
@@ -110,6 +122,10 @@ def build_front_matter(path: Path, rel: Path, text: str) -> dict | None:
     if ptype == "item" and rel.parent.as_posix() == "items":
         # Top-level items/*.md are category/system overviews, not single items.
         fm["overview_page"] = True
+    if ptype == "lore":
+        canon = parse_canon(text)
+        if canon:
+            fm["canon"] = canon
     if ptype == "mobile" and "bosses" in rel.parts:
         fm["boss"] = True
     if ptype == "item" and "notable" in rel.parts:
@@ -133,6 +149,9 @@ def main() -> int:
     files = sorted(
         p for p in root.rglob("*.md")
         if not any(part in SKIP_DIRS for part in p.relative_to(root).parts)
+        and p.name not in SKIP_FILES
+        and not (len(p.relative_to(root).parts) == 1
+                 and p.name in {"README.md", "ROADMAP.md"})
     )
     if args.limit:
         files = files[: args.limit]

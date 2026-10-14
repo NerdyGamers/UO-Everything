@@ -8,8 +8,16 @@
         "properties": {
           "type": {
             "const": "lore"
+          },
+          "index_page": {
+            "not": {
+              "const": true
+            }
           }
-        }
+        },
+        "required": [
+          "type"
+        ]
       },
       "then": {
         "required": [
@@ -24,6 +32,16 @@
             "const": "item"
           },
           "overview_page": {
+            "not": {
+              "const": true
+            }
+          },
+          "index_page": {
+            "not": {
+              "const": true
+            }
+          },
+          "artifact": {
             "not": {
               "const": true
             }

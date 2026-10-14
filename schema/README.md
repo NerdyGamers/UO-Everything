@@ -19,10 +19,13 @@ type: lore
 
 ## Conditional requirements
 
-- `type: lore` → `canon` is required (`canon` or `non-canon`).
+- `type: lore` → `canon` is required (`canon` or `non-canon`) — unless
+  `index_page: true` (section listings cover articles of mixed canon status).
 - `type: item` → `item_id` is required, format `0x` + 4 hex digits (e.g. `0x0F0A`) —
-  unless `overview_page: true` (category/system overviews like `items/armor.md`
-  cover many entities and carry no single ID).
+  unless the page covers more than one entity: `overview_page: true`
+  (category/system overviews like `items/armor.md`), `index_page: true`
+  (section listings), or `artifact: true` (notable/unique items with no single
+  canonical ItemID, e.g. Doom artifacts).
 
 ## Recommended (validator warns, does not fail)
 
