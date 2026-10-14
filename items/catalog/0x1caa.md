@@ -1,3 +1,15 @@
+---
+title: sarcophagus
+type: item
+item_id: '0x1CAA'
+dec_id: 7338
+tile_flags:
+- Impassable
+- ArticleA (0x00004040)
+weight: 255.0
+height: 2.0
+---
+
 # sarcophagus
 
 **Item ID:** `0x1caa` (7338)

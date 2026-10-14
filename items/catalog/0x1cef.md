@@ -1,3 +1,14 @@
+---
+title: entrails
+type: item
+item_id: '0x1CEF'
+dec_id: 7407
+tile_flags:
+- None (0x00000000)
+weight: 1.0
+height: 1.0
+---
+
 # entrails
 
 **Item ID:** `0x1cef` (7407)

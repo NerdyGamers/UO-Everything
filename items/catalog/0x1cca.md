@@ -1,3 +1,17 @@
+---
+title: blood
+type: item
+item_id: '0x1CCA'
+dec_id: 7370
+tile_flags:
+- Translucent
+- Wet
+- Surface
+- Unknown2 (0x00080288)
+weight: 255.0
+height: 0.0
+---
+
 # blood
 
 **Item ID:** `0x1cca` (7370)

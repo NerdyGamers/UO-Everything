@@ -1,3 +1,16 @@
+---
+title: blood
+type: item
+item_id: '0x1CDB'
+dec_id: 7387
+tile_flags:
+- Translucent
+- Wet
+- Unknown2 (0x00080088)
+weight: 0.0
+height: 0.0
+---
+
 # blood
 
 **Item ID:** `0x1cdb` (7387)
