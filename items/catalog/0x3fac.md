@@ -1,3 +1,14 @@
+---
+title: ballista
+type: item
+item_id: '0x3FAC'
+dec_id: 16300
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # ballista
 
 **Item ID:** `0x3fac` (16300)

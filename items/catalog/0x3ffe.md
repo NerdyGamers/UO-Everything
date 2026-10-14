@@ -1,3 +1,14 @@
+---
+title: horse
+type: item
+item_id: '0x3FFE'
+dec_id: 16382
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 0.0
+---
+
 # horse
 
 **Item ID:** `0x3ffe` (16382)
