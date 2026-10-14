@@ -1,3 +1,15 @@
+---
+title: elven shirt Male
+type: item
+item_id: '0x2FBC'
+dec_id: 12220
+tile_flags:
+- Weapon
+- Wearable (0x00400002)
+weight: 2.0
+height: 2.0
+---
+
 # elven shirt Male
 
 **Item ID:** `0x2fbc` (12220)

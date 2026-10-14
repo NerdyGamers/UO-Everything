@@ -1,3 +1,15 @@
+---
+title: tree Terrain
+type: item
+item_id: '0x2EBB'
+dec_id: 11963
+tile_flags:
+- Background
+- Impassable (0x00000041)
+weight: 255.0
+height: 0.0
+---
+
 # tree Terrain
 
 **Item ID:** `0x2ebb` (11963)

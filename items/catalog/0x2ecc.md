@@ -1,3 +1,14 @@
+---
+title: tree Terrain
+type: item
+item_id: '0x2ECC'
+dec_id: 11980
+tile_flags:
+- Background (0x00000001)
+weight: 255.0
+height: 0.0
+---
+
 # tree Terrain
 
 **Item ID:** `0x2ecc` (11980)
