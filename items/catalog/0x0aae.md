@@ -1,3 +1,16 @@
+---
+title: Rug East
+type: item
+item_id: '0x0AAE'
+dec_id: 2734
+tile_flags:
+- Background
+- Surface
+- ArticleA (0x00004201)
+weight: 255.0
+height: 0.0
+---
+
 # Rug East
 
 **Item ID:** `0x0aae` (2734)
