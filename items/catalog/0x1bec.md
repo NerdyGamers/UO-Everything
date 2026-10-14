@@ -1,3 +1,14 @@
+---
+title: gold ingot
+type: item
+item_id: '0x1BEC'
+dec_id: 7148
+tile_flags:
+- Generic (0x00000800)
+weight: 0.0
+height: 1.0
+---
+
 # gold ingot
 
 **Item ID:** `0x1bec` (7148)

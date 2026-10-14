@@ -1,3 +1,14 @@
+---
+title: gold ingots
+type: item
+item_id: '0x1BED'
+dec_id: 7149
+tile_flags:
+- None (0x00000000)
+weight: 0.0
+height: 1.0
+---
+
 # gold ingots
 
 **Item ID:** `0x1bed` (7149)

@@ -1,3 +1,15 @@
+---
+title: crossbow bolt
+type: item
+item_id: '0x1BFB'
+dec_id: 7163
+tile_flags:
+- Generic
+- ArticleA (0x00004800)
+weight: 0.0
+height: 1.0
+---
+
 # crossbow bolt
 
 **Item ID:** `0x1bfb` (7163)
