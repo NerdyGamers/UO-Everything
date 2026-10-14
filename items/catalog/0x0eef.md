@@ -1,3 +1,14 @@
+---
+title: gold coins
+type: item
+item_id: '0x0EEF'
+dec_id: 3823
+tile_flags:
+- Generic (0x00000800)
+weight: 25.0
+height: 0.0
+---
+
 # gold coins
 
 **Item ID:** `0x0eef` (3823)

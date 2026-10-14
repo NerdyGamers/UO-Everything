@@ -1,3 +1,14 @@
+---
+title: sheet music
+type: item
+item_id: '0x0EBD'
+dec_id: 3773
+tile_flags:
+- None (0x00000000)
+weight: 1.0
+height: 5.0
+---
+
 # sheet music
 
 **Item ID:** `0x0ebd` (3773)

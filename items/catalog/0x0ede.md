@@ -1,3 +1,15 @@
+---
+title: gravestone
+type: item
+item_id: '0x0EDE'
+dec_id: 3806
+tile_flags:
+- Impassable
+- ArticleA (0x00004040)
+weight: 255.0
+height: 5.0
+---
+
 # gravestone
 
 **Item ID:** `0x0ede` (3806)

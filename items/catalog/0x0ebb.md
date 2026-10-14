@@ -1,3 +1,15 @@
+---
+title: music stand
+type: item
+item_id: '0x0EBB'
+dec_id: 3771
+tile_flags:
+- Impassable
+- ArticleA (0x00004040)
+weight: 10.0
+height: 5.0
+---
+
 # music stand
 
 **Item ID:** `0x0ebb` (3771)

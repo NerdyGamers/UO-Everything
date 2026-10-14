@@ -1,3 +1,16 @@
+---
+title: gold coin
+type: item
+item_id: '0x0EED'
+dec_id: 3821
+tile_flags:
+- Background
+- Generic
+- Unknown3 (0x04000801)
+weight: 0.0
+height: 0.0
+---
+
 # gold coin
 
 **Item ID:** `0x0eed` (3821)

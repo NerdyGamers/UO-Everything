@@ -1,3 +1,14 @@
+---
+title: barber scissors
+type: item
+item_id: '0x0DFD'
+dec_id: 3581
+tile_flags:
+- None (0x00000000)
+weight: 1.0
+height: 1.0
+---
+
 # barber scissors
 
 **Item ID:** `0x0dfd` (3581)
