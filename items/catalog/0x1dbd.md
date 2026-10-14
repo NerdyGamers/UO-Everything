@@ -1,3 +1,16 @@
+---
+title: sandstone table
+type: item
+item_id: '0x1DBD'
+dec_id: 7613
+tile_flags:
+- Impassable
+- Surface
+- ArticleA (0x00004240)
+weight: 0.0
+height: 6.0
+---
+
 # sandstone table
 
 **Item ID:** `0x1dbd` (7613)

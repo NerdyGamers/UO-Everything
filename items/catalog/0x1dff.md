@@ -1,3 +1,14 @@
+---
+title: dirt
+type: item
+item_id: '0x1DFF'
+dec_id: 7679
+tile_flags:
+- Translucent (0x00000008)
+weight: 255.0
+height: 0.0
+---
+
 # dirt
 
 **Item ID:** `0x1dff` (7679)

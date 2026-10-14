@@ -1,3 +1,14 @@
+---
+title: head
+type: item
+item_id: '0x1DAE'
+dec_id: 7598
+tile_flags:
+- ArticleA (0x00004000)
+weight: 0.0
+height: 1.0
+---
+
 # head
 
 **Item ID:** `0x1dae` (7598)
