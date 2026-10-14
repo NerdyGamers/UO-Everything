@@ -1,3 +1,14 @@
+---
+title: decorative vines
+type: item
+item_id: '0x2CFA'
+dec_id: 11514
+tile_flags:
+- None (0x00000000)
+weight: 0.0
+height: 0.0
+---
+
 # decorative vines
 
 **Item ID:** `0x2cfa` (11514)

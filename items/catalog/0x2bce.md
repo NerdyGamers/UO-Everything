@@ -1,3 +1,15 @@
+---
+title: simple archway
+type: item
+item_id: '0x2BCE'
+dec_id: 11214
+tile_flags:
+- Wall
+- ArticleA (0x00004010)
+weight: 255.0
+height: 20.0
+---
+
 # simple archway
 
 **Item ID:** `0x2bce` (11214)
