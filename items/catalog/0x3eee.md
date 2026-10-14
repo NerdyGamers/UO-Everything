@@ -1,3 +1,14 @@
+---
+title: Missing_Name
+type: item
+item_id: '0x3EEE'
+dec_id: 16110
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 5.0
+---
+
 # Missing_Name
 
 **Item ID:** `0x3eee` (16110)
