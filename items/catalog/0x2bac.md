@@ -1,3 +1,17 @@
+---
+title: ornate arch
+type: item
+item_id: '0x2BAC'
+dec_id: 11180
+tile_flags:
+- Wall
+- Impassable
+- ArticleA
+- Unknown3 (0x04004050)
+weight: 255.0
+height: 20.0
+---
+
 # ornate arch
 
 **Item ID:** `0x2bac` (11180)
