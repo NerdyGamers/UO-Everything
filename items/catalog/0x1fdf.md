@@ -1,3 +1,15 @@
+---
+title: summon moongate
+type: item
+item_id: '0x1FDF'
+dec_id: 8159
+tile_flags:
+- LightSource
+- Animation (0x01800000)
+weight: 255.0
+height: 0.0
+---
+
 # summon moongate
 
 **Item ID:** `0x1fdf` (8159)

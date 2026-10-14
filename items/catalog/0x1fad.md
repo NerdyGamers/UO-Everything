@@ -1,3 +1,17 @@
+---
+title: wave
+type: item
+item_id: '0x1FAD'
+dec_id: 8109
+tile_flags:
+- Translucent
+- Wet
+- ArticleA
+- Animation (0x01004088)
+weight: 255.0
+height: 0.0
+---
+
 # wave
 
 **Item ID:** `0x1fad` (8109)

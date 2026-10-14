@@ -1,3 +1,18 @@
+---
+title: wave
+type: item
+item_id: '0x1FBC'
+dec_id: 8124
+tile_flags:
+- Background
+- Translucent
+- Wet
+- ArticleA
+- Animation (0x01004089)
+weight: 255.0
+height: 0.0
+---
+
 # wave
 
 **Item ID:** `0x1fbc` (8124)
