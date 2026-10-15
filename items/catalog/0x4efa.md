@@ -1,3 +1,16 @@
+---
+title: Roof
+type: item
+item_id: '0x4EFA'
+dec_id: 20218
+tile_flags:
+- Impassable
+- NoShoot
+- Roof (0x10002040)
+weight: 255.0
+height: 0.0
+---
+
 # Roof
 
 **Item ID:** `0x4efa` (20218)

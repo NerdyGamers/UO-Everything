@@ -1,3 +1,15 @@
+---
+title: Tinker Table Frame01
+type: item
+item_id: '0x4FAC'
+dec_id: 20396
+tile_flags:
+- Impassable
+- Animation (0x01000040)
+weight: 255.0
+height: 3.0
+---
+
 # Tinker Table Frame01
 
 **Item ID:** `0x4fac` (20396)
