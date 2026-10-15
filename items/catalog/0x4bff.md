@@ -1,3 +1,16 @@
+---
+title: Davies Locker SOUTH
+type: item
+item_id: '0x4BFF'
+dec_id: 19455
+tile_flags:
+- Impassable
+- Surface
+- PartialHue (0x00040240)
+weight: 255.0
+height: 5.0
+---
+
 # Davies Locker SOUTH
 
 **Item ID:** `0x4bff` (19455)

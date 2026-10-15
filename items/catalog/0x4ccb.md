@@ -1,3 +1,15 @@
+---
+title: Table Wood EAST
+type: item
+item_id: '0x4CCB'
+dec_id: 19659
+tile_flags:
+- Impassable
+- Surface (0x00000240)
+weight: 255.0
+height: 6.0
+---
+
 # Table Wood EAST
 
 **Item ID:** `0x4ccb` (19659)

@@ -1,3 +1,16 @@
+---
+title: Table Metal Long SOU
+type: item
+item_id: '0x4CBF'
+dec_id: 19647
+tile_flags:
+- Impassable
+- Surface
+- PartialHue (0x00040240)
+weight: 255.0
+height: 6.0
+---
+
 # Table Metal Long SOU
 
 **Item ID:** `0x4cbf` (19647)

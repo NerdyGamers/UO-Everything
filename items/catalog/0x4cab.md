@@ -1,3 +1,16 @@
+---
+title: Table Golden EAST
+type: item
+item_id: '0x4CAB'
+dec_id: 19627
+tile_flags:
+- Impassable
+- Surface
+- PartialHue (0x00040240)
+weight: 255.0
+height: 6.0
+---
+
 # Table Golden EAST
 
 **Item ID:** `0x4cab` (19627)

@@ -1,3 +1,15 @@
+---
+title: Easter Egg Bird Fram
+type: item
+item_id: '0x4CEF'
+dec_id: 19695
+tile_flags:
+- PartialHue
+- Animation (0x01040000)
+weight: 1.0
+height: 3.0
+---
+
 # Easter Egg Bird Fram
 
 **Item ID:** `0x4cef` (19695)
