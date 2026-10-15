@@ -1,3 +1,16 @@
+---
+title: RoofW
+type: item
+item_id: '0x4DFA'
+dec_id: 19962
+tile_flags:
+- Impassable
+- NoShoot
+- Roof (0x10002040)
+weight: 255.0
+height: 0.0
+---
+
 # RoofW
 
 **Item ID:** `0x4dfa` (19962)

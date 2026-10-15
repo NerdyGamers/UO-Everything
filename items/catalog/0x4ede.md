@@ -1,3 +1,16 @@
+---
+title: Roof
+type: item
+item_id: '0x4EDE'
+dec_id: 20190
+tile_flags:
+- Impassable
+- NoShoot
+- Roof (0x10002040)
+weight: 255.0
+height: 0.0
+---
+
 # Roof
 
 **Item ID:** `0x4ede` (20190)

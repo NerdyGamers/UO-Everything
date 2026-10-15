@@ -1,3 +1,16 @@
+---
+title: FloorTrim EAST
+type: item
+item_id: '0x4DEE'
+dec_id: 19950
+tile_flags:
+- Background
+- Surface
+- NoShoot (0x00002201)
+weight: 255.0
+height: 0.0
+---
+
 # FloorTrim EAST
 
 **Item ID:** `0x4dee` (19950)

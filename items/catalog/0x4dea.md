@@ -1,3 +1,16 @@
+---
+title: Floor EAST98
+type: item
+item_id: '0x4DEA'
+dec_id: 19946
+tile_flags:
+- Background
+- Surface
+- NoShoot (0x00002201)
+weight: 255.0
+height: 0.0
+---
+
 # Floor EAST98
 
 **Item ID:** `0x4dea` (19946)
