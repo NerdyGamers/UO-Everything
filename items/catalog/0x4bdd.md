@@ -1,3 +1,14 @@
+---
+title: throne Blackthone SO
+type: item
+item_id: '0x4BDD'
+dec_id: 19421
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 1.0
+---
+
 # throne Blackthone SO
 
 **Item ID:** `0x4bdd` (19421)

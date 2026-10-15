@@ -1,3 +1,14 @@
+---
+title: small Xmas Tree Fram
+type: item
+item_id: '0x4BAE'
+dec_id: 19374
+tile_flags:
+- Animation (0x01000000)
+weight: 2.0
+height: 3.0
+---
+
 # small Xmas Tree Fram
 
 **Item ID:** `0x4bae` (19374)
