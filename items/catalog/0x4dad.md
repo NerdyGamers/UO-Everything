@@ -1,3 +1,16 @@
+---
+title: QC CornerS1
+type: item
+item_id: '0x4DAD'
+dec_id: 19885
+tile_flags:
+- Wall
+- Impassable
+- NoShoot (0x00002050)
+weight: 255.0
+height: 20.0
+---
+
 # QC CornerS1
 
 **Item ID:** `0x4dad` (19885)

@@ -1,3 +1,16 @@
+---
+title: Wall east EAST
+type: item
+item_id: '0x4DDE'
+dec_id: 19934
+tile_flags:
+- Wall
+- Impassable
+- NoShoot (0x00002050)
+weight: 255.0
+height: 20.0
+---
+
 # Wall east EAST
 
 **Item ID:** `0x4dde` (19934)

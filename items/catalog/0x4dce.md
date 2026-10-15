@@ -1,3 +1,16 @@
+---
+title: QC CornerS4
+type: item
+item_id: '0x4DCE'
+dec_id: 19918
+tile_flags:
+- Wall
+- Impassable
+- NoShoot (0x00002050)
+weight: 255.0
+height: 20.0
+---
+
 # QC CornerS4
 
 **Item ID:** `0x4dce` (19918)
