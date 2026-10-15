@@ -1,3 +1,14 @@
+---
+title: JukaCorpse SOUTH
+type: item
+item_id: '0x4AAF'
+dec_id: 19119
+tile_flags:
+- None (0x00000000)
+weight: 255.0
+height: 1.0
+---
+
 # JukaCorpse SOUTH
 
 **Item ID:** `0x4aaf` (19119)

@@ -1,3 +1,16 @@
+---
+title: Gothic WallHalf EAST
+type: item
+item_id: '0x4AFF'
+dec_id: 19199
+tile_flags:
+- Wall
+- Impassable
+- ArticleA (0x00004050)
+weight: 255.0
+height: 10.0
+---
+
 # Gothic WallHalf EAST
 
 **Item ID:** `0x4aff` (19199)
