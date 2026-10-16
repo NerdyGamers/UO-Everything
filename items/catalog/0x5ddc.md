@@ -1,3 +1,17 @@
+---
+title: BritanianShip MainHu
+type: item
+item_id: '0x5DDC'
+dec_id: 24028
+tile_flags:
+- Background
+- Surface
+- PartialHue
+- StairRight (0x80040201)
+weight: 255.0
+height: 18.0
+---
+
 # BritanianShip MainHu
 
 **Item ID:** `0x5ddc` (24028)
