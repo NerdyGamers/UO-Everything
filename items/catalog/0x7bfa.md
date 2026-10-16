@@ -1,3 +1,17 @@
+---
+title: OrcShip MainHull D1
+type: item
+item_id: '0x7BFA'
+dec_id: 31738
+tile_flags:
+- Background
+- Surface
+- PartialHue
+- StairRight (0x80040201)
+weight: 255.0
+height: 14.0
+---
+
 # OrcShip MainHull D1
 
 **Item ID:** `0x7bfa` (31738)
