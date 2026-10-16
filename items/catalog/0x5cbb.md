@@ -1,3 +1,15 @@
+---
+title: BritanianShip Sails
+type: item
+item_id: '0x5CBB'
+dec_id: 23739
+tile_flags:
+- Foliage
+- PartialHue (0x00060000)
+weight: 255.0
+height: 0.0
+---
+
 # BritanianShip Sails
 
 **Item ID:** `0x5cbb` (23739)
