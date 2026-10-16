@@ -1,3 +1,15 @@
+---
+title: OrcShip Mast D2 SOUT
+type: item
+item_id: '0x7FAB'
+dec_id: 32683
+tile_flags:
+- Foliage
+- PartialHue (0x00060000)
+weight: 255.0
+height: 0.0
+---
+
 # OrcShip Mast D2 SOUT
 
 **Item ID:** `0x7fab` (32683)

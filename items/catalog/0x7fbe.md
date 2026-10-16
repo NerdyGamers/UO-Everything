@@ -1,3 +1,15 @@
+---
+title: OrcShip D2 MainHull
+type: item
+item_id: '0x7FBE'
+dec_id: 32702
+tile_flags:
+- Impassable
+- PartialHue (0x00040040)
+weight: 255.0
+height: 17.0
+---
+
 # OrcShip D2 MainHull
 
 **Item ID:** `0x7fbe` (32702)

@@ -1,3 +1,14 @@
+---
+title: OrcShip D2 MainHull
+type: item
+item_id: '0x7FCA'
+dec_id: 32714
+tile_flags:
+- PartialHue (0x00040000)
+weight: 255.0
+height: 14.0
+---
+
 # OrcShip D2 MainHull
 
 **Item ID:** `0x7fca` (32714)
