@@ -1,3 +1,15 @@
+---
+title: OrcShip Mast D1 NORT
+type: item
+item_id: '0x7DFC'
+dec_id: 32252
+tile_flags:
+- Foliage
+- PartialHue (0x00060000)
+weight: 255.0
+height: 0.0
+---
+
 # OrcShip Mast D1 NORT
 
 **Item ID:** `0x7dfc` (32252)
