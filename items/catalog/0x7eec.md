@@ -1,3 +1,14 @@
+---
+title: OrcShip ShipWheel D1
+type: item
+item_id: '0x7EEC'
+dec_id: 32492
+tile_flags:
+- PartialHue (0x00040000)
+weight: 255.0
+height: 14.0
+---
+
 # OrcShip ShipWheel D1
 
 **Item ID:** `0x7eec` (32492)
